@@ -1,6 +1,6 @@
 # DSA-JavaScript
 ## [HackerRank - Insert a Node at the Head of a Linked List](https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list/problem)
-[![Solution Video](http://img.youtube.com/vi/nX_inqaAzOI/0.jpg)](https://youtu.be/wocju7rE2Fk)
+[Solution Video](https://youtu.be/wocju7rE2Fk)
 ~~~javaScript
 /*
  * For your reference:
