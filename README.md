@@ -64,3 +64,29 @@ function insertNodeAtTail(head, data) {
 }
 
 ~~~
+## HackerRank - Insert a node at a specific position in a linked list (https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem)
+[Solution Video](https://youtu.be/CmzW1j3pywg)
+~~~ javaScript
+/*
+ * For your reference:
+ *
+ * SinglyLinkedListNode {
+ *     int data;
+ *     SinglyLinkedListNode next;
+ * }
+ *
+ */
+
+function insertNodeAtPosition(llist, data, position) {
+    // Write your code here
+    let newNode = new SinglyLinkedListNode(data);
+    let node = llist;
+    for(let i=1; i<position; i++){
+        node = node.next;
+    }
+    newNode.next = node.next;
+    node.next = newNode;
+    return llist;
+}
+
+~~~
