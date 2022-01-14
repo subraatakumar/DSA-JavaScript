@@ -64,7 +64,7 @@ function insertNodeAtTail(head, data) {
 }
 
 ~~~
-## HackerRank - Insert a node at a specific position in a linked list (https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem)
+## [HackerRank - Insert a node at a specific position in a linked list](https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem)
 [Solution Video](https://youtu.be/P4pQGv_gnGc)
 ~~~ javaScript
 /*
