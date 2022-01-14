@@ -90,3 +90,32 @@ function insertNodeAtPosition(llist, data, position) {
 }
 
 ~~~
+##[HackerRank - Delete a Node at a given position in a linked list](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem)
+Delete the node at a given position in a linked list and return a reference to the head node. The head is at position 0. The list may be empty after you delete the node. In that case, return a null value.
+[Solution Video](https://youtu.be/-zPHbgWlbFk)
+~~~javaScript
+/*
+ * For your reference:
+ *
+ * SinglyLinkedListNode {
+ *     int data;
+ *     SinglyLinkedListNode next;
+ * }
+ *
+ */
+
+function deleteNode(llist, position) {
+    // Write your code here
+    let head = llist;
+    if(position == 0){
+        head = head.next;
+        return head;
+    }
+    while(position > 1){
+        head = head.next;
+        position--;
+    }
+    head.next = head.next.next;
+    return llist;
+}
+~~~
