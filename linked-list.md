@@ -90,7 +90,7 @@ function insertNodeAtPosition(llist, data, position) {
 }
 
 ~~~
-##[HackerRank - Delete a Node at a given position in a linked list](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem)
+## [HackerRank - Delete a Node at a given position in a linked list](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem)
 Delete the node at a given position in a linked list and return a reference to the head node. The head is at position 0. The list may be empty after you delete the node. In that case, return a null value.
 [Solution Video](https://youtu.be/-zPHbgWlbFk)
 ~~~javaScript
