@@ -7,3 +7,10 @@ In most of the programming languages it will through an error because we can't u
 ~~~
 undefined
 ~~~
+~~~javascript
+console.log(x)
+~~~
+It will through :
+~~~
+ReferenceError: x is not defined
+~~~
