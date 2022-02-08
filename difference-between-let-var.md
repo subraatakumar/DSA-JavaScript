@@ -30,5 +30,7 @@ A variable can be declared only once with in a block scope using let.
     console.log(x);  
 ~~~
 
+Variables, declared with `var`, are either function-scoped or global-scoped. But variables declared with `let` are global scoped.
 
-If you have suggestions what to improve - please submit a [GitHub issue]() or a pull request instead of commenting.
+
+- If you have suggestions what to improve - please submit a [GitHub issue](https://github.com/subratsir/DSA-JavaScript/issues/new) or a pull request instead of commenting.
