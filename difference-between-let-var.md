@@ -68,14 +68,18 @@ Look at the below example
 
 ~~~javascript
     var x;
-    console.log(x); // x is declared but not initialised so outputs undefined
+    console.log(x); // x is declared but not initialised so outputs `undefined`
     x = 10;
     console.log(x); // outputs 10
 ~~~
 
 In the above 2 examples no difference in let and var. Let us look at the below 2 examples.
 
-
+~~~javascript
+    console.log(x); // `var` declarations are processed when the function starts for function-scoped variables and are processed when the script starts for global-scoped variables. So outputs `undefined`
+    var x = 10;
+    console.log(x); // 10
+~~~
 
 
 - If you have suggestions what to improve - please submit a [GitHub issue](https://github.com/subratsir/DSA-JavaScript/issues/new) or a pull request instead of commenting.
