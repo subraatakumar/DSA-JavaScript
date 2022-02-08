@@ -44,4 +44,20 @@ Variables, declared with `var`, are either function-scoped or global-scoped. But
     console.log(x); // outputs 5
 ~~~
 
+let us use `let` instead of `var` and see the difference.
+~~~javascript
+    let x = 5; // Global-Scoped variable
+    (function(){
+        let x = "Ramesh"; // Function-Scoped variable
+        if(true){
+            let x = "Subrat";
+            console.log(x);
+        }
+        console.log(x);
+    })();
+    console.log(x);
+~~~
+
+
+
 - If you have suggestions what to improve - please submit a [GitHub issue](https://github.com/subratsir/DSA-JavaScript/issues/new) or a pull request instead of commenting.
