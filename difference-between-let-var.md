@@ -76,7 +76,10 @@ Look at the below example
 In the above 2 examples no difference in let and var. Let us look at the below 2 examples.
 
 ~~~javascript
-    console.log(x); // `var` declarations are processed when the function starts for function-scoped variables and are processed when the script starts for global-scoped variables. So outputs `undefined`
+    console.log(x); // `var` declarations are processed when the function starts for function-scoped variables 
+    // and are processed when the script starts for global-scoped variables. So outputs `undefined`
+    // It means declarations are hoisted but assignments are not
+    // variable x is declared when script scarts but 10 will be assigned to it during the assignment statement.
     var x = 10;
     console.log(x); // 10
 ~~~
