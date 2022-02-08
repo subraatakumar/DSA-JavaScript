@@ -40,7 +40,7 @@ Variables, declared with `var`, are either function-scoped or global-scoped. But
             console.log(x); // outputs "Subrat"
         }
         console.log(x); // outputs "Subrat"
-    })();
+    })(); // IIFE (immediately-invoked function expressions. Explained at last about this)
     console.log(x); // outputs 5
 ~~~
 
@@ -83,6 +83,32 @@ In the above 2 examples no difference in let and var. Let us look at the below 2
     var x = 10;
     console.log(x); // 10
 ~~~
+
+~~~javascript
+    console.log(x); // Uncaught ReferenceError: Cannot access 'x' before initialization
+    let x = 10;
+    console.log(x);
+~~~
+
+- IIFE
+
+In the past, as there was only var, and it has no block-level visibility, programmers invented a way to emulate it. What they did was called “immediately-invoked function expressions” (abbreviated as IIFE). This’s not something we should use nowadays, but you can find them in old scripts.
+
+Below is an example of IIFE:
+
+~~~javascript
+(function() {
+
+  var message = "Hello World!";
+
+  console.log(message); // Hello World!
+
+})();
+~~~
+
+Here, a Function Expression is created and immediately called. So the code executes right away and has its own private variables.
+
+
 
 
 - If you have suggestions what to improve - please submit a [GitHub issue](https://github.com/subratsir/DSA-JavaScript/issues/new) or a pull request instead of commenting.
