@@ -51,11 +51,11 @@ let us use `let` instead of `var` and see the difference.
         let x = "Ramesh"; // Function-Scoped variable
         if(true){
             let x = "Subrat";
-            console.log(x);
+            console.log(x); // Outputs "Subrat" - block scoped variable
         }
-        console.log(x);
+        console.log(x); // Outputs "Ramesh" - function scoped variable
     })();
-    console.log(x);
+    console.log(x); // Outputs 5 - Global scoped variable
 ~~~
 
 
