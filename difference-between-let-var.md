@@ -11,11 +11,11 @@ In older scripts you may find another keyword `var`.
 var x;
 ~~~
 
-A variable can be declared only once with in a block scope.
+A variable can be declared only once with in a block scope using let.
 ~~~javascript
     var x = 5;
     console.log(x);
-    var x = "ramesh"; 
+    var x = "ramesh"; // No Error
     console.log(x);
 
     let y = 5;
