@@ -57,7 +57,7 @@ Output :
   [0,1,2,3]
   Output with in loop
   [0,1,2,3,4]
-  Output outside of in loop
+  Output outside of loop
   [0,1,2,3,4]
   
 ~~~
