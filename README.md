@@ -5,4 +5,5 @@
 
 # JavaScript Interview Preparation
 
-- [difference between let and var]()
+- [difference between let and var](https://github.com/subratsir/DSA-JavaScript/blob/main/difference-between-let-var.md)
+- 
