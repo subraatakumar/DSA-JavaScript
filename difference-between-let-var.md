@@ -11,6 +11,12 @@ In older scripts you may find another keyword `var`.
 var x;
 ~~~
 
+variables must be declared before assigning any value to it in strict mode or modular script.
+~~~javascript
+"use strict";
+x = "Subrat"; // Uncaught ReferenceError: x is not defined
+~~~
+
 A variable can be declared only once with in a block scope using let.
 ~~~javascript
     var x = 5;
@@ -23,3 +29,6 @@ A variable can be declared only once with in a block scope using let.
     let y = "ramesh"; //Uncaught SyntaxError: Identifier 'y' has already been declared
     console.log(x);  
 ~~~
+
+
+If you have suggestions what to improve - please submit a [GitHub issue]() or a pull request instead of commenting.
