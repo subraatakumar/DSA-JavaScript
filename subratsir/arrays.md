@@ -233,5 +233,10 @@ Note : have you observed that, using either of the above methods we can't access
 
 [Watch Video Tutorials](https://play.google.com/store/apps/details?id=in.ttrc.pgdca)
 
+## HackerRank Problem Solutions
+
+[Sales By Match](https://www.hackerrank.com/challenges/three-month-preparation-kit-sock-merchant/problem?isFullScreen=true) [Solution](#)
+
+
 ## References
 [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections)
