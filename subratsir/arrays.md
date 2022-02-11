@@ -131,6 +131,46 @@ Note : have you observed that, using either of the above methods we can't access
 
 - join(delimeter = ',') : joins all elements of an array into a string.
 
+~~~javascript
+    let b = ["ramesh", "suresh", "madhu"]
+    console.log(b.join('')) // rameshsureshmadhu
+    console.log(b.join('-')) // ramesh-suresh-madhu
+~~~
+
+- split(delimeter = ',') : splits a string into array elements
+
+~~~javascript
+    let a = "Ramesh Suresh Mahesh";
+    console.log(a.split(" ")) // ['Ramesh', 'Suresh', 'Mahesh']
+    let b = "1,2,3,4,5,6,7,8"
+    console.log(b.split(",")) // ['1', '2', '3', '4', '5', '6', '7', '8']
+~~~
+
+- slice(start_index, up_to_index) extracts a section of an array and returns a new array.
+
+~~~javascript
+    let myArray = new Array('a', 'b', 'c', 'd', 'e')
+    myArray = myArray.slice(1, 4)  // starts at index 1 and extracts all elements
+                                   // until index 3, returning [ "b", "c", "d"]
+~~
+
+- splice(index, count_to_remove, addElement1, addElement2, ...) removes elements from an array and (optionally) replaces them. It returns the items which were removed from the array.
+
+~~~javascript
+    let myArray = new Array('1', '2', '3', '4', '5')
+    console.log (myArray.splice(1, 3, 'a', 'b', 'c', 'd'))
+    console.log(myArray)
+~~~
+
+- reverse() : reverses the array elements
+
+~~~javascript
+    let myArray = new Array('1', '2', '3', '4', '5')
+    console.log (myArray.reverse()) // ['5', '4', '3', '2', '1']
+~~~
+
+
+
 [Watch Video Tutorials](https://play.google.com/store/apps/details?id=in.ttrc.pgdca)
 
 ## References
