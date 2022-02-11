@@ -1,7 +1,7 @@
 # DSA-JavaScript
 
 ## [Linked List](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/linked-list.md)
-## [Hoisting](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/Hoisting-In-JavaScript.md)
+
 
 # JavaScript Interview Preparation
 
