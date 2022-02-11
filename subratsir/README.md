@@ -2,6 +2,7 @@
 
 ## [Linked List](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/linked-list.md)
 
+## [Array](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/arrays.md)
 
 # JavaScript Interview Preparation
 
