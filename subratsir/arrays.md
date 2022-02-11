@@ -236,7 +236,8 @@ Note : have you observed that, using either of the above methods we can't access
 ## HackerRank Problem Solutions
 
 [Sales By Match](https://www.hackerrank.com/challenges/three-month-preparation-kit-sock-merchant/problem?isFullScreen=true) [Solution](#)
-
+[Migratory Birds Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-migratory-birds/problem?isFullScreen=true) - [Solution](#)
 
 ## References
 [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections)
+[This youtube tutorial](https://www.youtube.com/watch?v=NiLUGy1Mh4U) will clear all your doubts regarding `reduce` function.
