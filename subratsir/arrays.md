@@ -117,6 +117,20 @@ Output :
 4  5
 ~~~
 
+Note : have you observed that, using either of the above methods we can't access the array object property elements.
+
+## Array Methods
+
+- concat() : joins two or more arrays and return a new array
+
+~~~javascript
+    let a = new Array(1,12,3,4,5);
+    let b = ["ramesh", "suresh", "madhu"]
+    console.log(a.concat(b)) // [1, 12, 3, 4, 5, 'ramesh', 'suresh', 'madhu']
+~~~
+
+- join(delimeter = ',') : joins all elements of an array into a string.
+
 [Watch Video Tutorials](https://play.google.com/store/apps/details?id=in.ttrc.pgdca)
 
 ## References
