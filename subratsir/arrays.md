@@ -169,6 +169,24 @@ Note : have you observed that, using either of the above methods we can't access
     console.log (myArray.reverse()) // ['5', '4', '3', '2', '1']
 ~~~
 
+- sort() : sorts the elements of an array in place, and returns a reference to the array.
+
+~~~javascript
+    let x = ["Ramesh", "Ajay", "Somesh","Atul","Bunty"];
+    console.log(x.sort()); // ['Ajay', 'Atul', 'Bunty', 'Ramesh', 'Somesh']
+    let a = new Array(18, 12, 103, 4, 5);
+    console.log (a.sort()); // [103, 12, 18, 4, 5] - because integers are also sorted like strings so 10 first then 12 then 18 then 4 and then 5
+    console.log (a.sort((a,b) => a - b)); // [4, 5, 12, 18, 103]
+~~~
+
+- indexOf(searchElement[, fromIndex]) searches the array for searchElement and returns the index of the first match.
+
+~~~javascript
+    let a = ['a', 'b', 'a', 'b', 'a']
+    console.log(a.indexOf('a'))     // 0
+    console.log(a.indexOf('b', 2))  // 3
+    console.log(a.indexOf('z'))     // -1, because 'z' was not found
+~~~
 
 
 [Watch Video Tutorials](https://play.google.com/store/apps/details?id=in.ttrc.pgdca)
