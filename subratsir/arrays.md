@@ -17,6 +17,36 @@ can be accessed using its index number. Index number can be defined as a serial 
 - Updating a Value to another Value: O(N) time
 - Inserting a value: O(N) time
 
+## Creating Array
+
+JavaScript does not have an explicit array data type. However we can use predefined `Array` object for this purpose.
+
+~~~javascript
+    const a = new Array(1,12,3,4,5);
+    const b = Array(1,2,3,4,5);
+    const c = [1,2,3,4,5];
+~~~
+
+any one of the above statements can be used to create an `Array`. The last one is the shortest form to create and initialise an array. It is also called `array literal`. To declare empty array (array with out elements), don't pass any argument.
+
+## Updating Elements
+
+~~~javascript
+    const a = new Array(1,12,3,4,5);
+    a[2] = 15;
+    console.log(a); // Prints [1,12,15,4,5] on console
+    console.log(a.length) // Prints 5
+    a[1.3] = 18; // It is also acceptable statement. Javascript arrays stores their elements as standard object properties using the array index as propertyname and given element as property value. as index 1.3 does not exist so it creates a new property name 1.3 and stores value 18 to it.
+    console.log(a) // Prints [1, 12, 15, 4, 5, 1.3: 18]
+    console.log(a.length) // Prints 5, because the length property of Array object returns the gighest index stored in the array + 1.
+    a[9.2] = 17;
+    console.log(a) // [1, 12, 15, 4, 5, 1.3: 18, 9.2: 17]
+    console.log(a.length) // 5
+    a[30] = 51; 
+    console.log(a) // [1, 12, 15, 4, 5, empty × 25, 51, 1.3: 18, 9.2: 17]
+    console.log(a.length) // 31
+~~~
+
 
 
 ## References
