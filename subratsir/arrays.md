@@ -36,15 +36,22 @@ any one of the above statements can be used to create an `Array`. The last one i
     a[2] = 15;
     console.log(a); // Prints [1,12,15,4,5] on console
     console.log(a.length) // Prints 5
-    a[1.3] = 18; // It is also acceptable statement. Javascript arrays stores their elements as standard object properties using the array index as propertyname and given element as property value. as index 1.3 does not exist so it creates a new property name 1.3 and stores value 18 to it.
+    a[1.3] = 18; // It is also acceptable statement. Javascript arrays stores their elements as standard object properties 
+    // using the array index as propertyname and given element as property value. as index 1.3 does not exist 
+    // so it creates a new property name 1.3 and stores value 18 to it.
     console.log(a) // Prints [1, 12, 15, 4, 5, 1.3: 18]
-    console.log(a.length) // Prints 5, because the length property of Array object returns the gighest index stored in the array + 1.
+    console.log(a.length) // Prints 5, because the length property of Array object returns 
+    // the gighest index stored in the array + 1.
     a[9.2] = 17;
     console.log(a) // [1, 12, 15, 4, 5, 1.3: 18, 9.2: 17]
     console.log(a.length) // 5
     a[30] = 51; 
     console.log(a) // [1, 12, 15, 4, 5, empty × 25, 51, 1.3: 18, 9.2: 17]
     console.log(a.length) // 31
+    a.length = 2  // Trims length to 2 elements but don't delete the object elements
+    console.log(a)  // [1, 12, 1.3: 18, 9.2: 17]
+    delete a[1.3] 
+    console.log(a) // [1, 12, 9.2: 17]   
 ~~~
 
 
