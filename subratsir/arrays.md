@@ -55,6 +55,8 @@ any one of the above statements can be used to create an `Array`. The last one i
 ~~~
 
 ## Iterating through array elements
+
+Example :
 ~~~javascript
     const a = new Array(1,12,3,4,5);
     a[1.3] = 18;
@@ -64,7 +66,7 @@ any one of the above statements can be used to create an `Array`. The last one i
         console.log(a[i]);
     }
 ~~~
-
+Output :
 ~~~
 1 
 12
@@ -72,12 +74,12 @@ any one of the above statements can be used to create an `Array`. The last one i
 4
 5
 ~~~
-
+Example:
 ~~~javascript
     console.log("Iterating using forEach");
     a.forEach((item) => console.log(item));
 ~~~
-
+Output :
 ~~~
 1 
 12
@@ -85,12 +87,12 @@ any one of the above statements can be used to create an `Array`. The last one i
 4
 5
 ~~~
-
+Example:
 ~~~javascript
     console.log("Iterating using map function");
     a.map(item => console.log(item));
 ~~~
-
+Output :
 ~~~
 1 
 12
@@ -101,11 +103,12 @@ any one of the above statements can be used to create an `Array`. The last one i
 
 All above examples provide same output. Using for loop we have more control over the elements as we are able to access their index number. Using forEach also we can assess the index number. Let us have a look at the below example.
 
+Example:
 ~~~javascript
     console.log("Iterating using forEach");
     a.forEach((item,index) => console.log(index, item));
 ~~~
-
+Output :
 ~~~
 0  1 
 1  12
