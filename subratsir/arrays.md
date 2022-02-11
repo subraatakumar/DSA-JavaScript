@@ -216,6 +216,20 @@ Note : have you observed that, using either of the above methods we can't access
     console.log(a3.every((item) => item%2 !== 0)) // false
 ~~~
 
+- filter(callback[, thisObject]) returns a new array containing the items for which callback returned true.
+
+~~~javascript
+    let a1 = [1, '2', 3,4,5,"Ramesh"]
+    // filter all integer elements
+    console.log(a1.filter((item) => typeof item === 'number'))  // [1, 3, 4, 5]
+    // filter all non integer elements
+    console.log(a1.filter((item) => typeof item !== 'number'))  // ['2', 'Ramesh']
+    let a3 = [1,2,3,4,6,8]
+    // filter all even numbers
+    console.log(a3.filter((item) => item%2 === 0)) // [2, 4, 6, 8]
+    // filter all odd numbers
+    console.log(a3.filter((item) => item%2 !== 0)) // [1, 3]
+~~~
 
 [Watch Video Tutorials](https://play.google.com/store/apps/details?id=in.ttrc.pgdca)
 
