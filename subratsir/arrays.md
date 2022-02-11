@@ -188,6 +188,34 @@ Note : have you observed that, using either of the above methods we can't access
     console.log(a.indexOf('z'))     // -1, because 'z' was not found
 ~~~
 
+- reduce()
+
+~~~javascript
+    let a = [1,2,3,4,5,6]
+    // Sum all elements of array
+    console.log(a.reduce((a,b) => a+b))     // 21
+    // Multiply all elements of array
+    console.log(a.reduce((a,b) => a*b))     // 720
+    // Start from 0th index. If current element is greater then next then current - next else next - current
+    console.log(a.reduce((a,b) => a>b ? a-b : b-a))     // 3
+~~~
+
+- every(callback[, thisObject]) returns true if callback returns true for every item in the array.
+
+~~~javascript
+    let a1 = [1, 2, 3]
+    // check if all items of array are numbers
+    console.log(a1.every((item) => typeof item === 'number'))  // true
+    let a2 = [1, '2', 3]
+    // check if all items of array are numbers
+    console.log(a2.every((item) => typeof item === 'number'))  // false
+    let a3 = [2,4,6,8]
+    // Check if all items of array are even
+    console.log(a3.every((item) => item%2 === 0)) // true
+    // Check if all items of array are Odd
+    console.log(a3.every((item) => item%2 !== 0)) // false
+~~~
+
 
 [Watch Video Tutorials](https://play.google.com/store/apps/details?id=in.ttrc.pgdca)
 
