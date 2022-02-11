@@ -236,6 +236,7 @@ Note : have you observed that, using either of the above methods we can't access
 ## HackerRank Problem Solutions
 
 [Sales By Match](https://www.hackerrank.com/challenges/three-month-preparation-kit-sock-merchant/problem?isFullScreen=true) [Solution](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/sales-by-match.js)
+
 [Migratory Birds Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-migratory-birds/problem?isFullScreen=true) - [Solution](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/Migratory-Birds.js)
 
 ## References
