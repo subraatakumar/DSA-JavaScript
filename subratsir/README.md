@@ -40,4 +40,42 @@ function a(){
     }, i*1000);
   }
 }
+
+a();
+// output :
+// 3
+// 3
+// 3
+// Replace var with let, the output :
+// 0
+// 1
+// 2
 ~~~
+
+- explain call apply and bind
+- composition polyfill
+
+~~~
+function addFive(a){
+  return a+5;
+}
+
+function subtractTwo(a){
+  return a-2;
+}
+
+function multiplyFour(a){
+  return a*4;
+}
+
+
+~~~
+
+  - implement pipe
+  - implement promise.all
+  - React Interview Questions
+    - Explain life cycle method both in class and function
+    - ways to center a div
+    - What is CSS Box Model ?
+    - Implement a de bounce function
+    - 
