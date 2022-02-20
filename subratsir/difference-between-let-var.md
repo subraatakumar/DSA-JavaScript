@@ -109,6 +109,13 @@ Below is an example of IIFE:
 Here, a Function Expression is created and immediately called. So the code executes right away and has its own private variables.
 
 
+| var | let | const
+|-|-|
+| can be declared with out initialisation | can be declared with out initialisation | can not be declaerd with out initialisation |
+| can be redeclared with in the scope | can not be re-declared with in the scope | can not be redeclared with in the scope |
+| can be re-assigned a new value or updated | can be re-assigned a new value or updated | can never be updated |
+| Functionally or Globally scoped | block scoped | block scoped |
+
 
 
 - If you have suggestions what to improve - please submit a [GitHub issue](https://github.com/subratsir/DSA-JavaScript/issues/new) or a pull request instead of commenting.
