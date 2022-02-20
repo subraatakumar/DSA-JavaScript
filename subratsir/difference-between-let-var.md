@@ -108,6 +108,7 @@ Below is an example of IIFE:
 
 Here, a Function Expression is created and immediately called. So the code executes right away and has its own private variables.
 
+## Key Difference Summary
 
 | var | let | const |
 |-----|-----|-------|
