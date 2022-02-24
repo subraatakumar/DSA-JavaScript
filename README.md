@@ -4,6 +4,6 @@ This is an open source repository collects notes and solutions on JavaScript fro
 
 ## Contributions :
 
-### [Subrat Sir](https://github.com/subratsir/DSA-JavaScript/tree/main/subratsir)
+### [Subrat Sir](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/README.md)
 
 Other contributor's notes will be updated soon
