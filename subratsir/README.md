@@ -4,6 +4,8 @@
 
 ## [Array](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/arrays.md)
 
+## [Hacker Rank Solutions](https://github.com/subratsir/DSA-JavaScript/tree/main/subratsir)
+
 ## JavaScript Interview Preparation
 
 - [difference between let and var](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference-between-let-var.md)
