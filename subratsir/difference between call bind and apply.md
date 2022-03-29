@@ -33,5 +33,6 @@ let newFn = print3.bind(userDetails2,"Odisha","India.");
 newFn() // Ramesh Jena is from Odisha, India.
 
 print3.apply(userDetails2,["Odisha","India."]); // arguments are passed as array. rest it works as call
+print3.call(userDetails2,"Odisha","India."); // arguments are passed as separate element 
 
 ~~~
