@@ -16,6 +16,8 @@ When the interpreter hoists a variable declared with var, it initializes its val
 
 Variables declared with let and const are hoisted but not initialized with a default value. Accessing a let or const variable before it's declaration will result in a ReferenceError because of Temporal Dead Zone. TDZ also works in same manner for function parameter when assigned default value.
 
+Surprisingly typeof a hoisted let or const will through error because we can check the type of an undeclared variable as undefined.
+
 
 
 
