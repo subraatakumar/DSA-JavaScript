@@ -10,7 +10,16 @@ We know that, a variable can be decalred in three different ways var, let and co
 
 ### Variable hoisting with var
 
-When the interpreter hoists a variable declared with var, it initializes its value to undefined. But if the variable is not declared in that scope then it will return not defined.
+When the interpreter hoists a variable declared with var, it initializes its value to `undefined`. But if the variable is not declared in that scope then it will return `not defined`.
+
+### Variable hoisting with let and const
+
+Variables declared with let and const are hoisted but not initialized with a default value. Accessing a let or const variable before it's declaration will result in a ReferenceError because of Temporal Dead Zone. TDZ also works in same manner for function parameter when assigned default value.
+
+
+
+
+
 
 
 
