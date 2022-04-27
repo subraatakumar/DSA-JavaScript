@@ -10,5 +10,7 @@ We know that, a variable can be decalred in three different ways var, let and co
 
 ### Variable hoisting with var
 
+When the interpreter hoists a variable declared with var, it initializes its value to undefined. But if the variable is not declared in that scope then it will return not defined.
+
 
 
