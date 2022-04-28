@@ -78,13 +78,15 @@ a(); // It will log 3, 3 times because var is function scoped. If we change var 
 // but if we want to output 0 1 2 with the use of var then we have to implement closure
 
 function a() {
-  for(var i=0; i<3; i++){
-    function innner(i){
-      setTimeout(function log(){
-        console.log(i);
-      }, i* 1000);
-      }
+    for(var i=0; i<3; i++){
+      function inner(i){
+        setTimeout(function log(){
+          console.log(i);
+        }, i* 1000);
+        }
+        inner(i)
+    }
+     
   }
-}
 
 ```
