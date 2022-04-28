@@ -62,3 +62,29 @@ closure(20);
 console.timeEnd("20"); // 0.15 Miliseconds
 ```
 
+## Another Closure example
+
+```js
+function a() {
+for(var i=0; i<3; i++){
+  setTimeout(function log(){
+    console.log(i);
+  }, i* 1000);
+}
+}
+
+a(); // It will log 3, 3 times because var is function scoped. If we change var with let then it will return 0 1 2.
+
+// but if we want to output 0 1 2 with the use of var then we have to implement closure
+
+function a() {
+  for(var i=0; i<3; i++){
+    function innner(i){
+      setTimeout(function log(){
+        console.log(i);
+      }, i* 1000);
+      }
+  }
+}
+
+```
