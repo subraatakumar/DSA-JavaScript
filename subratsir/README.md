@@ -14,6 +14,7 @@
 - [Understand Hoisting Better](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/Understand-Hoisting-Better.md)
 - [Difference between call bind and apply](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference%20between%20call%20bind%20and%20apply.md)
 - [How null and undefined are same](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/How%20null%20and%20undefined%20are%20same%20in%20javascript.md)
+- [What is closure](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/what-is-closure.md)
 
 [Video Tutorial for Below Questions](https://www.youtube.com/watch?v=abbdJ4Yfm54)
 
