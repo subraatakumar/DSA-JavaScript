@@ -18,6 +18,11 @@ Variables declared with let and const are hoisted but not initialized with a def
 
 Surprisingly typeof a hoisted let or const will through error because we can check the type of an undeclared variable as undefined.
 
+## Function Hoisting in JavaScript
+
+Functions can be hoisted but not arrow funcions.
+
+
 
 
 
