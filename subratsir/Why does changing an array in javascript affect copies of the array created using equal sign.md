@@ -28,3 +28,15 @@ We can create a copy using slice
 let d = a.slice(0) 
 ```
 
+Note: These all will work only for one dimensional array. That means the nested items will still be a reference type array.
+
+```js
+const originalArray = [[1,2,3], [4,5,6], [7,8,9]]
+const clone = [...originalArray]
+
+clone[0] = 10
+clone[1][0] = 77
+
+#clone = [10, [77,5,6], [7,8,9]]
+#originalArray = [[1,2,3], [77,5,6], [7,8,9]]
+```
