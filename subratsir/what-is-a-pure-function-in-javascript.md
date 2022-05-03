@@ -12,5 +12,6 @@ Below are some of the side effects those a pure function should not produce.
 - DOM query / manipulation
 - Math.random()
 - Getting the current time.
+- Can't modify a global variable
 
 
