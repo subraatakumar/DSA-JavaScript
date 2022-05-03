@@ -16,6 +16,7 @@
 - [How null and undefined are same](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/How%20null%20and%20undefined%20are%20same%20in%20javascript.md)
 - [What is closure](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/what-is-closure.md)
 - [What is function currying ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/what_is_function_currying.md)
+- [What is a pure function in Javascript ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/what-is-a-pure-function-in-javascript.md)
 - [Why should not use = sign to clone arrays?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/Why%20does%20changing%20an%20array%20in%20javascript%20affect%20copies%20of%20the%20array%20created%20using%20equal%20sign.md)
 
 [Video Tutorial for Below Questions](https://www.youtube.com/watch?v=abbdJ4Yfm54)
