@@ -20,6 +20,10 @@
 - [What is a Prototypical Inheritance ?]
 - [Why should not use = sign to clone arrays?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/Why%20does%20changing%20an%20array%20in%20javascript%20affect%20copies%20of%20the%20array%20created%20using%20equal%20sign.md)
 
+## React Questions
+
+- [What is a React Pure Component ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-pure-components.md)
+
 [Video Tutorial for Below Questions](https://www.youtube.com/watch?v=abbdJ4Yfm54)
 
 - What is the difference between map and filter
