@@ -24,3 +24,5 @@ for (var i = 1; i <= 10; i++) {
 customUI.addEventListener("click", responding);
 document.getElementById("app").appendChild(customUI);
 ```
+
+[codesandbox link](https://codesandbox.io/s/event-delegation-example-eoen3y)
