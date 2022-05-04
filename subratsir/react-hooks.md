@@ -10,3 +10,10 @@ Every time a component re-renders, its functions get recreated. Now the function
   },[prop])
 ```
 
+## useMemo
+
+```js
+  const data = useMemo(() => expensiveCalculationfunction, [dependency_prop])
+```
+
+The expensive calculation function calculates again only if the dependency_prop changed.
