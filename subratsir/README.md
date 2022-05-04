@@ -6,6 +6,8 @@
 
 ## [Hacker Rank Solutions](https://github.com/subratsir/DSA-JavaScript/tree/main/subratsir)
 
+## [JavaScript Programs](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/javascript-programs.md)
+
 ## JavaScript Interview Preparation
 
 - [What is Hoisting](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/what-is-hoisting.md)
