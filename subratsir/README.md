@@ -31,6 +31,8 @@
 
 - [What is a React Pure Component ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-pure-components.md)
 - [Explain useRef with an example.](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/useref-with-example.md)
+- [Explain some react hooks](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-hooks.md)
+- 
 
 [Video Tutorial for Below Questions](https://www.youtube.com/watch?v=abbdJ4Yfm54)
 
