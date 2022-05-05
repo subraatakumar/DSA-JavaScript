@@ -26,3 +26,24 @@ function calculate(a, b) {
 const [add, subtract, multiply, divide, modulus] = calculate(3, 5);
 ```
 
+### Use destructuring to extract only the user's state.
+
+```js
+const user = {
+  name: 'Subrat',
+  age: 45, 
+  address: {
+    city: 'Rayagada',
+    state: 'Odisha',
+    country: 'India'
+  }
+}
+
+displayMessage(user)
+
+function displayMessage({_______________}) {
+  const message = 'I live in ' + state + '.';
+}
+
+Ans:  address: { state } 
+```
