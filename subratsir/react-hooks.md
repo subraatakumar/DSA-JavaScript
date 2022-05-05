@@ -17,3 +17,10 @@ Every time a component re-renders, its functions get recreated. Now the function
 ```
 
 The expensive calculation function calculates again only if the dependency_prop changed.
+
+## useRef
+
+The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can also be used to access a DOM element directly.
+
+[See Example](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/useref-with-example.md)
+
