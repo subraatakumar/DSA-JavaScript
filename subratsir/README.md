@@ -25,7 +25,8 @@
 - [What is event delegation ? explain with an example.](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/event-delegation.md)
 - [What is destructuting ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/de-structuring.md)
 - [What is javascript spread operator ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/Spread-Operator.md)
-
+- [What is callback ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/call-back.md)
+- [What is a JavaScript Promise?]
 
 ## React Questions
 
