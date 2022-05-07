@@ -64,3 +64,17 @@ print3.call(userDetails2,"Odisha","India."); // arguments are passed as separate
 ```
 
 call and apply both are used for function borrowing. The only difference is that call takes comma separated arguments and apply takes array of arguments. 
+
+To run the function we have to use the same line again and again. This problem is solved by `bind`.
+
+```js
+const newFn = employee.getFullName.bind(emp1);
+
+newFn("Rayagada","Teacher");
+```
+
+Now we can run this new function `newFn` as many times as required.
+
+Based on our requirements we can use call apply or bind. Basically if we need the result immidiately, we can use call or apply and If we need the result at a later time then we can use bind and create a new function out of it.
+
+
