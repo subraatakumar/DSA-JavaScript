@@ -36,3 +36,31 @@ print3.apply(userDetails2,["Odisha","India."]); // arguments are passed as array
 print3.call(userDetails2,"Odisha","India."); // arguments are passed as separate element 
 
 ~~~
+
+## Another Example :
+
+```js
+  const employee = {
+    firstName: "Subrat",
+    lastName: "Dash",
+    getFullName: function(city, desig){
+      console.log(`${this.firstName} ${this.lastName} of ${city} is working as ${desig}`);
+    }
+  }
+  
+  const emp1 = {
+    firstName: "Ramesh",
+    lastName: "Jena"
+  }
+  
+  employee.getFullName.call(emp1, "Rayagada", "Teacher")
+  
+  const emp2 = {
+    firstName: "Ramesh",
+    lastName: "Jena"
+  }
+  
+  employee.getFullName.apply(emp2, ["Rayagada", "Software Developer"])
+```
+
+call and apply both are used for function borrowing. The only difference is that call takes comma separated arguments and apply takes array of arguments. 
