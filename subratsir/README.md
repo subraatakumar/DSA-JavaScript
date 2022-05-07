@@ -106,3 +106,8 @@ function multiplyFour(a){
     - What is CSS Box Model ?
     - Implement a de bounce function
     - 
+
+[link 1](https://www.interviewbit.com/javascript-interview-questions/)
+[link 2](https://www.interviewbit.com/css-interview-questions/)
+[link 3](https://github.com/sudheerj/javascript-interview-questions)
+
