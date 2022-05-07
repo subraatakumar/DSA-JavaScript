@@ -28,6 +28,7 @@
 - [What is javascript spread operator ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/Spread-Operator.md)
 - [What is callback ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/call-back.md)
 - [What is a JavaScript Promise?]
+- [What is the difference between normal function and arrow function?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference-between-normal-function-and-arrow-function.md)
 
 ## React Questions
 
