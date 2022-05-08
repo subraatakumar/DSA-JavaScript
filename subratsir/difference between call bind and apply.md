@@ -77,4 +77,11 @@ Now we can run this new function `newFn` as many times as required.
 
 Based on our requirements we can use call apply or bind. Basically if we need the result immidiately, we can use call or apply and If we need the result at a later time then we can use bind and create a new function out of it.
 
+## Finding minimum from an array of elements using apply
+
+```js
+  let z = [7,5,3,16,18,12,11,7]
+  console.log(Math.min(...z)) // Find minimum using spread operator
+  console.log(Math.min.apply(null,z)) // Find minimum using apply
+```
 
