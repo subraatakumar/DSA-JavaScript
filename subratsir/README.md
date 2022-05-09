@@ -29,6 +29,7 @@
 - [What is callback ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/call-back.md)
 - [What is a JavaScript Promise?]
 - [What is the difference between normal function and arrow function?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference-between-normal-function-and-arrow-function.md)
+- [What is Optional Chaining ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/optional-chaining.md)
 
 ## React Questions
 
