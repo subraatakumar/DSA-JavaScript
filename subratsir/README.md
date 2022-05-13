@@ -111,7 +111,11 @@ function multiplyFour(a){
     - Implement a de bounce function
     - 
 
+[front end screening round](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/front-end-screening-round.md)
+
 [link 1](https://www.interviewbit.com/javascript-interview-questions/)
+
 [link 2](https://www.interviewbit.com/css-interview-questions/)
+
 [link 3](https://github.com/sudheerj/javascript-interview-questions)
 
