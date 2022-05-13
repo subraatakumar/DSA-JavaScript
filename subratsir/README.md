@@ -39,6 +39,9 @@
 - [What is React Suspense?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-suspense.md)
 - [Difference between state and prop](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/diff-between-state-and-prop.md)
 
+## Software Engineering Questions
+
+- [What are SOLID principles ?]
 
 
 [Video Tutorial for Below Questions](https://www.youtube.com/watch?v=abbdJ4Yfm54)
