@@ -37,6 +37,9 @@
 - [Explain useRef with an example.](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/useref-with-example.md)
 - [Explain some react hooks](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-hooks.md)
 - [What is React Suspense?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-suspense.md)
+- [Difference between state and prop](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/diff-between-state-and-prop.md)
+
+
 
 [Video Tutorial for Below Questions](https://www.youtube.com/watch?v=abbdJ4Yfm54)
 
