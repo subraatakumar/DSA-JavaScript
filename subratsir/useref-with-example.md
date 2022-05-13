@@ -23,3 +23,14 @@ export function App(props) {
   );
 }
 ```
+It can also be used to get the value of uncontrolled input.
+
+```js
+  const inputRef = useRef();
+  
+  function alertValue = () => {
+    alert(inputRef.current.value);
+  }
+  
+  <input type="text" ref={inputref} />
+```
