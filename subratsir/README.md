@@ -41,7 +41,7 @@
 
 ## Software Engineering Questions
 
-- [What are SOLID principles ?]
+- [What are SOLID principles ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/solid.md)
 
 
 [Video Tutorial for Below Questions](https://www.youtube.com/watch?v=abbdJ4Yfm54)
