@@ -22,7 +22,6 @@
 - [What is a higher order function in javascript?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/higher-order-function.md)
 - [What is DOM and why it is required ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/document-object-model.md)
 - [What is a Prototypical Inheritance ?]
-- [Difference between loosly coupled and tightly coupled object ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference_between_loosly_coupled_tight_coupled_object.md)
 - [Why should not use = sign to clone arrays?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/Why%20does%20changing%20an%20array%20in%20javascript%20affect%20copies%20of%20the%20array%20created%20using%20equal%20sign.md)
 - [What is event delegation ? explain with an example.](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/event-delegation.md)
 - [What is destructuting ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/de-structuring.md)
@@ -43,6 +42,8 @@
 ## Software Engineering Questions
 
 - [What are SOLID principles ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/solid.md)
+- [Difference between loosly coupled and tightly coupled object ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference_between_loosly_coupled_tight_coupled_object.md)
+
 
 
 [Video Tutorial for Below Questions](https://www.youtube.com/watch?v=abbdJ4Yfm54)
