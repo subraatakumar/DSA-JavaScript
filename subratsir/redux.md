@@ -5,14 +5,14 @@ Actions are plain javascript objects that says what to do. It has a type field a
 
 ```js
   {
-      type: "INCREMENT",
+      type: "INC",
       payload: num
   }
 ```
 
 ```js
   {
-      type: "DECREMENT",
+      type: "DEC",
       payload: num
   }
 ```
