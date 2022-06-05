@@ -129,7 +129,7 @@ export default function App() {
 # REDUX PRINCIPLES
 
 - Single Source of Truth : The global state of our application is stored as an object inside a single store.
-- State is readonly : The only way to change the state is to despath an action.
+- State is readonly : The only way to change the state is to dispatch an action.
 - Immutability, one-way data flow, predictability of outcome.
 - Changes are made with pure reducer functions.
 
