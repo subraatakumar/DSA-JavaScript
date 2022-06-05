@@ -4,6 +4,24 @@
 Actions are plain javascript that says what to do. It has a type field and an optional payload field. Actions are used to explain what to do, but they don't tell us how to do.
 
 ```js
+  {
+      type: "INCREMENT",
+      payload: num
+  }
+```
+
+```js
+  {
+      type: "DECREMENT",
+      payload: num
+  }
+```
+
+## 1.1) Action Creator (Pure function)
+
+This is a pure function which returns an action. It is reusable, portable and easy to test.
+
+```js
   export const incNumber = (num) => {
     return {
       type: "INCREMENT",
@@ -19,38 +37,32 @@ Actions are plain javascript that says what to do. It has a type field and an op
   }
 ```
 
-## 1.1) Action Creator (Pure function)
-
-This is a pure function which creates an action. It is reusable, portable and easy to test.
-
 ## 2) Reducer
 
 Reducers are the functions that take the current state and an action as argument and returns a new state as result.
 
 ```js
-  const initialState = 0;
-  
-  export const changeTheNumber = (state= initialState, action) => {
-    switch(action.type){
-      case "INCREMENT": return state + action.payload;
-      
-      case "DECREMENT": return state - action.payload;
-      
-      default: return state;
-      
-    }
+const initialState = 0;
+const incDecNumber = (state = initialState, action) => {
+  switch (action.type) {
+    case "INC":
+      return state + action.payload;
+    case "DEC":
+      return state - action.payload;
+    default:
+      return state;
   }
+};
+export default incDecNumber;
 ```
 
 You should combine all your reducers into a single.
 
 ```js
-  import { combineReducers } from 'redux';
-  import { changeTheNumber } from 'reducer1';
-  
-  const rootReducer = combineReducers({ changeTheNumber });
-  
-  export default rootReducer;
+import { combineReducers } from "redux";
+import incDecNumber from "./reducer1";
+const rootReducer = combineReducers({ incDecNumber });
+export default rootReducer;
 ```
 
 ## 3) Store
@@ -58,10 +70,12 @@ You should combine all your reducers into a single.
 The redux store combines together state, action and reducers. We can have a single store in a redux appliation. Redux store has a single root reducer function. 
 
 ```js
-  import { createStore } from 'redux';
-  import rootReducer from './reducers'
-  const store = createStore(rootReducer);
-  export default store;
+import { createStore } from "redux";
+import rootReducer from "../reducers";
+
+const store = createStore(rootReducer);
+
+export default store;
 ```
 
 ## 4) Provider
@@ -69,16 +83,48 @@ The redux store combines together state, action and reducers. We can have a sing
 use provider to pass store as prop to complete app.
 
 ```js
-  import { Provider } from 'react-redux';
-  import store from './store';
-  import App from './App';
-  
-  ReactDOM.render(<React.StrictMode>
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { Provider } from "react-redux";
+import store from "./redux/store";
+
+import App from "./App";
+
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+store.subscribe(() => {});
+
+root.render(
+  <StrictMode>
     <Provider store={store}>
       <App />
     </Provider>
-  </React.StrictMode>);
+  </StrictMode>
+);
 ```
+
+## Use in Component
+
+```js
+import { useSelector, useDispatch } from "react-redux";
+import { incNumber, decNumber } from "./redux/action";
+
+export default function App() {
+  const number = useSelector((state) => state.incDecNumber);
+  const dispatch = useDispatch();
+  return (
+    <div className="App">
+      <h1>Redux Counter App</h1>
+      <button onClick={() => dispatch(incNumber(1))}>+</button>
+      <span>{number}</span>
+      <button onClick={() => dispatch(decNumber(1))}>-</button>
+    </div>
+  );
+}
+
+```
+
 
 # REDUX PRINCIPLES
 
