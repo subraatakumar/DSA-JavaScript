@@ -14,7 +14,7 @@ Reducers are the functions that take the current state and an action as argument
 ```js
   const initialState = 0;
   
-  const changeTheNumber = (state= initialState, action) => {
+  export const changeTheNumber = (state= initialState, action) => {
     switch(action.type){
       case "INCREMENT": return state + action.payload
       
@@ -25,4 +25,32 @@ Reducers are the functions that take the current state and an action as argument
     }
   }
 ```
+
+You should combine all your reducers into a single.
+
+```js
+  import { combineReducers } from 'redux';
+  import { changeTheNumber } from 'reducer1';
+  
+  const rootReducer = combineReducers({ changeTheNumber });
+  
+  export default rootReducer;
+```
+
+## 3) Store
+
+The redux store combines together state, action and reducers. We can have a single store in a redux appliation. Redux store has a single root reducer function. 
+
+```js
+  import { createStore } from 'redux';
+  const store = createStore(rootReducers);
+  
+```
+
+# REDUX PRINCIPLES
+
+- Single Source of Truth : The global state of our application is stored as an object inside a single store.
+- State is readonly : The only way to change the state is to despath an action.
+- Immutability, one-way data flow, predictability of outcome.
+- Changes are made with pure reducer functions.
 
