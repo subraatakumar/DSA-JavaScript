@@ -32,11 +32,11 @@ Reducers are the functions that take the current state and an action as argument
   
   export const changeTheNumber = (state= initialState, action) => {
     switch(action.type){
-      case "INCREMENT": return state + action.payload
+      case "INCREMENT": return state + action.payload;
       
-      case "DECREMENT": return state - action.payload
+      case "DECREMENT": return state - action.payload;
       
-      default: return state
+      default: return state;
       
     }
   }
@@ -59,8 +59,25 @@ The redux store combines together state, action and reducers. We can have a sing
 
 ```js
   import { createStore } from 'redux';
-  const store = createStore(rootReducers);
+  import rootReducer from './reducers'
+  const store = createStore(rootReducer);
+  export default store;
+```
+
+## 4) Provider
+
+use provider to pass store as prop to complete app.
+
+```js
+  import { Provider } from 'react-redux';
+  import store from './store';
+  import App from './App';
   
+  ReactDOM.render(<React.StrictMode>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </React.StrictMode>);
 ```
 
 # REDUX PRINCIPLES
