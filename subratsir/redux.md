@@ -3,6 +3,22 @@
 
 Actions are plain javascript that says what to do. It has a type field and an optional payload field. Actions are used to explain what to do, but they don't tell us how to do.
 
+```js
+  export const incNumber = (num) => {
+    return {
+      type: "INCREMENT",
+      payload: num
+    }
+  }
+  
+  export const decNumber = (num) => {
+    return {
+      type: "DECREMENT",
+      payload: num
+    }
+  }
+```
+
 ## 1.1) Action Creator (Pure function)
 
 This is a pure function which creates an action. It is reusable, portable and easy to test.
