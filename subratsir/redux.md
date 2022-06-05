@@ -24,14 +24,14 @@ This is a pure function which returns an action. It is reusable, portable and ea
 ```js
   export const incNumber = (num) => {
     return {
-      type: "INCREMENT",
+      type: "INC",
       payload: num
     }
   }
   
   export const decNumber = (num) => {
     return {
-      type: "DECREMENT",
+      type: "DEC",
       payload: num
     }
   }
