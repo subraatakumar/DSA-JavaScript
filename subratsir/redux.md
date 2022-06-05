@@ -1,7 +1,7 @@
 
 ## 1) Action (pure object)
 
-Actions are plain javascript that says what to do. It has a type field and an optional payload field. Actions are used to explain what to do, but they don't tell us how to do.
+Actions are plain javascript objects that says what to do. It has a type field and an optional payload field. Actions are used to explain what to do, but they don't tell us how to do.
 
 ```js
   {
