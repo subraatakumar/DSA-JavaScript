@@ -30,6 +30,8 @@
 - [What is a JavaScript Promise?]
 - [What is the difference between normal function and arrow function?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference-between-normal-function-and-arrow-function.md)
 - [What is Optional Chaining ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/optional-chaining.md)
+- [What is the use of setInterval](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/set-interval.md)
+- 
 
 ## React Questions
 
