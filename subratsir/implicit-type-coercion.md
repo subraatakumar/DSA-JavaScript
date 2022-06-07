@@ -1,0 +1,14 @@
+# What is implicit type coercion in JavaScript ?
+
+The automatic type conversion of one data type to another by Javascript is called implicit type coercion.
+
+```js
+console.log( +"c") // Nan
+console.log(typeof ( +"c")) // number
+console.log(("3"+3)) // "33"
+console.log(typeof ("3"+3)) // string
+console.log((3+"3")) // "33"
+console.log(typeof (3+"3")) // string
+console.log(("3"-3)) // 0
+console.log(typeof ("3"-3)) // number
+```
