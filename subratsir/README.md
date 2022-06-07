@@ -32,6 +32,7 @@
 - [What is Optional Chaining ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/optional-chaining.md)
 - [What is the use of setInterval](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/set-interval.md)
 - [What is setTimeout](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/set-timeout.md)
+- [What is a javascript promise?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/promise.md)
 - 
 
 ## React Questions
