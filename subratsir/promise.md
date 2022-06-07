@@ -44,4 +44,32 @@ sumElements()
 .catch(error=> console.log(error));
 ```
 
+Usinf async await to call a promise
 
+```js
+// accessing return of resolve function
+async function y() {
+	try{
+		let x = await sumElements(1,2,3,4,5,6);
+  	console.log(x)
+  }catch(e){
+  	console.log(e)
+  }
+}
+
+y();
+```
+
+```js
+// accessing return of reject function
+async function y() {
+	try{
+		let x = await sumElements();
+  	console.log(x)
+  }catch(e){
+  	console.log(e)
+  }
+}
+
+y();
+```
