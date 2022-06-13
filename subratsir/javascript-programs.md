@@ -1,5 +1,6 @@
 - [Sort JavaScript Array](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/sort-array-javascript.md)
 - [Suffle JavaScript Array](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/suffle-array-javascript.md)
+- [Find All Even and Odd numbers from an array of numbers](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/find-all-even-and-odd-numbers-from-javascript.md)
 - 
 
 # Reverse a number
