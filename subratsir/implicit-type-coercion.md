@@ -3,7 +3,7 @@
 The automatic type conversion of one data type to another by Javascript is called implicit type coercion.
 
 ```js
-console.log( +"c") // Nan 
+console.log( +"c") // NaN (Not a Number)
 // NaN means the value is of number type but not a legal number
 console.log(typeof ( +"c")) // number
 console.log(("3"+3)) // "33"
