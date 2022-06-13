@@ -85,3 +85,24 @@ Based on our requirements we can use call apply or bind. Basically if we need th
   console.log(Math.min.apply(null,z)) // Find minimum using apply
 ```
 
+## Another Example
+
+```js
+let emp1 = {
+	name : "Subrat",
+  roll : 15
+}
+
+function printDetails(rem1){
+	console.log(`Employee Code of ${this.name} is ${this.roll} and belongs to ${rem1}`)
+}
+
+printDetails.call(emp1); // Employee Code of Subrat is 15 and belongs to undefined
+printDetails.call(emp1, "Neosoft Corporation"); // Employee Code of Subrat is 15 and belongs to Neosoft Corporation
+printDetails.apply(emp1, ["Neosoft Corporation"]); // Employee Code of Subrat is 15 and belongs to Neosoft Corporation
+
+const function1 = printDetails.bind(emp1);
+
+function1("Service Based.")  // Employee Code of Subrat is 15 and belongs to Service Based.
+
+```
