@@ -12,10 +12,11 @@
 
 - [Explain data types in JavaScript](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/data-types.md)
 - [What is Hoisting](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/what-is-hoisting.md)
-- [What is implicit type coercion ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/implicit-type-coercion.md)
-- [difference between let and var](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference-between-let-var.md)
 - [Understand Hoisting](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/Hoisting-In-JavaScript.md)
 - [Understand Hoisting Better](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/Understand-Hoisting-Better.md)
+- [What is the difference between normal function and arrow function?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference-between-normal-function-and-arrow-function.md)
+- [What is implicit type coercion ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/implicit-type-coercion.md)
+- [difference between let and var](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference-between-let-var.md)
 - [Difference between call bind and apply](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference%20between%20call%20bind%20and%20apply.md)
 - [How null and undefined are same](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/How%20null%20and%20undefined%20are%20same%20in%20javascript.md)
 - [What is closure](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/what-is-closure.md)
@@ -30,7 +31,6 @@
 - [What is javascript spread operator ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/Spread-Operator.md)
 - [What is callback ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/call-back.md)
 - [What is a JavaScript Promise?]
-- [What is the difference between normal function and arrow function?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference-between-normal-function-and-arrow-function.md)
 - [What is Optional Chaining ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/optional-chaining.md)
 - [What is the use of setInterval](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/set-interval.md)
 - [What is setTimeout](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/set-timeout.md)
