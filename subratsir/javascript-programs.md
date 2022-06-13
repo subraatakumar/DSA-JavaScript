@@ -1,5 +1,6 @@
 - [Sort JavaScript Array](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/sort-array-javascript.md)
-- [Suffle JavaScript Array]
+- [Suffle JavaScript Array](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/suffle-array-javascript.md)
+- 
 
 # Reverse a number
 
