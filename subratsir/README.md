@@ -27,6 +27,7 @@
 - [What is DOM and why it is required ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/document-object-model.md)
 - [What is a Prototypical Inheritance ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/Prototypical-inheritence.md)
 - [Why should not use = sign to clone arrays?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/Why%20does%20changing%20an%20array%20in%20javascript%20affect%20copies%20of%20the%20array%20created%20using%20equal%20sign.md)
+- [What is event loop in JavaScript?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/event-loop-in-javascript.md)
 - [What is event delegation ? explain with an example.](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/event-delegation.md)
 - [What is destructuting ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/de-structuring.md)
 - [What is javascript spread operator ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/Spread-Operator.md)
@@ -49,6 +50,8 @@
 - [What is reconciliation in React ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-dom-updates-in-react.md)
 - [Why diffing algorithm is used in React?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-dom-updates-in-react.md)
 
+
+
 ## Software Engineering Questions
 
 - [What are SOLID principles ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/solid.md)
@@ -58,6 +61,10 @@
 `
 A Singleton is an object which can only be instantiated one time. Repeated calls to its constructor return the same instance and this way one can ensure that they don't accidentally create multiple instances.
 `
+
+- [What is the difference between Stack and Queue ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference-between-stack-and-queue.md)
+
+
 
 ```js
 var object = new (function () {
