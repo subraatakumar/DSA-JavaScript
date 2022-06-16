@@ -23,6 +23,7 @@
 - [What is closure](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/what-is-closure.md)
 - [What is function currying ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/what_is_function_currying.md)
 - [What is a pure function in Javascript ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/what-is-a-pure-function-in-javascript.md)
+- [What is a side effect?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/what-is-a-pure-function-in-javascript.md)
 - [What is a higher order function in javascript?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/higher-order-function.md)
 - [What is DOM and why it is required ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/document-object-model.md)
 - [What is a Prototypical Inheritance ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/Prototypical-inheritence.md)
