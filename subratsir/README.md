@@ -31,7 +31,7 @@
 - [What is destructuting ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/de-structuring.md)
 - [What is javascript spread operator ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/Spread-Operator.md)
 - [What is callback ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/call-back.md)
-- [What is a JavaScript Promise?]
+- [What is a JavaScript Promise?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/promise.md)
 - [What is Optional Chaining ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/optional-chaining.md)
 - [What is the use of setInterval](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/set-interval.md)
 - [What is setTimeout](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/set-timeout.md)
