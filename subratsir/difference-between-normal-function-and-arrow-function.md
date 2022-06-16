@@ -56,8 +56,33 @@ Uncaught ReferenceError: arguments is not defined
 
 - If a function is constructable, it can be called with new, i.e. new User(). If a function is callable, it can be called without new (i.e. normal function call). Arrow functions are callable but not constructable.
   
-  
-  
+```js
+let a = function(name, roll){
+	this.name = name,
+  this.roll = roll,
+  this.prin = function(){
+  	console.log(`Roll number of ${this.name} is ${this.roll}`);
+  }
+}
+
+let b = new a("Subrat", 15);
+b.prin(); // Roll number of Subrat is 15
+```
+
+```js
+let c = (name, roll) => {
+	this.name = name,
+  this.roll = roll,
+  this.prin = function(){
+  	console.log(`Roll number of ${this.name} is ${this.roll}`);
+  }
+}
+
+let d = new c("Ramesh", 15);
+d.prin(); // Uncaught TypeError: c is not a constructor
+```
+
+
   [Home](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/README.md)
 
          
