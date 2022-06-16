@@ -4,12 +4,12 @@ By default every object with its methods and properties contains an internal and
 
 ```js
 let a = {
-	fname : "Subrat",
-  lname : "Das",
-  print : function(){
-  	console.log(`${this.fname} ${this.lname}`)
-  }
-}
+	  fname : "Subrat",
+	  lname : "Das",
+	  print : function(){
+		console.log(`${this.fname} ${this.lname}`)
+	    }
+        }
 
 let b = new Object();
 // b is inheriting object a
