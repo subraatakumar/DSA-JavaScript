@@ -17,6 +17,7 @@
 - [What is the difference between normal function and arrow function?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference-between-normal-function-and-arrow-function.md)
 - [What is implicit type coercion ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/implicit-type-coercion.md)
 - [difference between let and var](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference-between-let-var.md)
+- [Where IIFE is used?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference-between-let-var.md)
 - [Difference between call bind and apply](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference%20between%20call%20bind%20and%20apply.md)
 - [How null and undefined are same](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/How%20null%20and%20undefined%20are%20same%20in%20javascript.md)
 - [What is closure](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/what-is-closure.md)
@@ -44,6 +45,9 @@
 - [Explain some react hooks](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-hooks.md)
 - [What is React Suspense?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-suspense.md)
 - [Difference between state and prop](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/diff-between-state-and-prop.md)
+- [How DOM updates is React ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-dom-updates-in-react.md)
+- [What is reconciliation in React ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-dom-updates-in-react.md)
+- [Why diffing algorithm is used in React?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-dom-updates-in-react.md)
 
 ## Software Engineering Questions
 
