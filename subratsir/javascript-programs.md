@@ -17,7 +17,7 @@ parseInt(a.toString().split('').reverse().join(''));
 function flatten(){
   let result = [];
     return fla = (a) => {
-      a.map((x)=>{
+      a.forEach((x)=>{
         Array.isArray(x) ? fla(x) : result.push(x);
       })
       return result;
