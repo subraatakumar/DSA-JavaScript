@@ -25,7 +25,7 @@
 - [What is a pure function in Javascript ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/what-is-a-pure-function-in-javascript.md)
 - [What is a higher order function in javascript?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/higher-order-function.md)
 - [What is DOM and why it is required ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/document-object-model.md)
-- [What is a Prototypical Inheritance ?]
+- [What is a Prototypical Inheritance ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/Prototypical-inheritence.md)
 - [Why should not use = sign to clone arrays?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/Why%20does%20changing%20an%20array%20in%20javascript%20affect%20copies%20of%20the%20array%20created%20using%20equal%20sign.md)
 - [What is event delegation ? explain with an example.](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/event-delegation.md)
 - [What is destructuting ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/de-structuring.md)
