@@ -50,12 +50,12 @@ Usinf async await to call a promise
 // accessing return of resolve function
 async function y() {
 	try{
-		let x = await sumElements(1,2,3,4,5,6);
-  	console.log(x)
-  }catch(e){
-  	console.log(e)
-  }
-}
+	   let x = await sumElements(1,2,3,4,5,6);
+  	   console.log(x)
+	}catch(e){
+  	   console.log(e)
+  	}
+   }
 
 y();
 ```
@@ -64,12 +64,14 @@ y();
 // accessing return of reject function
 async function y() {
 	try{
-		let x = await sumElements();
-  	console.log(x)
-  }catch(e){
-  	console.log(e)
-  }
+    	   let x = await sumElements();
+  	   console.log(x)
+        }catch(e){
+  	   console.log(e)
+        }
 }
 
 y();
 ```
+
+[Home](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/README.md)
