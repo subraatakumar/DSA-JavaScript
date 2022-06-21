@@ -38,7 +38,9 @@
 - [What is the use of setInterval](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/set-interval.md)
 - [What is setTimeout](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/set-timeout.md)
 - [What is a javascript promise?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/promise.md)
-- 
+- [How to create JavaScript Objects](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-to-create-objects-in-javascript.md)
+- [How to use factory function to create object?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-to-create-objects-in-javascript.md)
+- [How to create object using constructor function ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-to-create-objects-in-javascript.md)
 
 ## React Questions
 
