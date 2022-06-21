@@ -42,8 +42,8 @@ function createMyObject(emp_code, emp_name){
     }
 }
 
-const myObject = createMyObject(15, "Subrata Das");
-const anotherMyObject = createMyObject(16, "Ramesh Jena");
+const myObject = new createMyObject(15, "Subrata Das");
+const anotherMyObject = new createMyObject(16, "Ramesh Jena");
 ```
 
 Using factory and constructor functions we can create many objects of same type but with different values.
