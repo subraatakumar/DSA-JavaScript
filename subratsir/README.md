@@ -41,6 +41,8 @@
 - [How to create JavaScript Objects](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-to-create-objects-in-javascript.md)
 - [How to use factory function to create object?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-to-create-objects-in-javascript.md)
 - [How to create object using constructor function ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-to-create-objects-in-javascript.md)
+- [Difference between local storage sessions storage and cookies](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/cookies.JPG)
+
 
 ## React Questions
 
