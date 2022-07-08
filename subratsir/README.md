@@ -159,3 +159,7 @@ function multiplyFour(a){
 [link 3](https://github.com/sudheerj/javascript-interview-questions)
 
 [Cognizant ReactJS Interview](https://www.youtube.com/watch?v=zguhGHVUzIM)
+
+[React JS interview Manager Round](https://www.youtube.com/watch?v=oK95PH3Ghsg)
+
+
