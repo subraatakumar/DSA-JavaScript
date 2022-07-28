@@ -163,3 +163,6 @@ function multiplyFour(a){
 [React JS interview Manager Round](https://www.youtube.com/watch?v=oK95PH3Ghsg)
 
 [IBM Technical Round for Freshers](https://www.youtube.com/watch?v=cXHm_7a7gfE)
+
+[Client Round on React JS](https://www.youtube.com/watch?v=EM8k_0PFFgc)
+
