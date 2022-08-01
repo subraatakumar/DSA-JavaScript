@@ -1,4 +1,4 @@
-# Three principles of React
+# Three principles of Redux
 
 - Single source of truth : The global state of application is stored on a single store. It can be accessed from any part of App.
 - State is read only : We can change it only by emiting an action (Action is an javascript object which has type and optional payload. 
