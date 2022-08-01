@@ -59,7 +59,7 @@
 
 ## Redux Questions
 
-- What are three principles of redux (https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/notes/three-principles-of-redux.md)
+- [What are three principles of redux ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/notes/three-principles-of-redux.md)
 
 ## Software Engineering Questions
 
