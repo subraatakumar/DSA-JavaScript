@@ -14,8 +14,8 @@ store.dispatch({
 ```js
 // The below object is an action
 {
-  type: 'COMPLETE_TODO',
-  index: 1
+  type: 'ADD_TODO',
+  payload: "New Task"
 }
 ```
 
