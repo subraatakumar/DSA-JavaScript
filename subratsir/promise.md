@@ -74,4 +74,47 @@ async function y() {
 y();
 ```
 
+## Another Example
+
+```js
+function fun1(){
+	console.log("Called ...1")
+	return new Promise((resolve, reject) => {
+  	setTimeout(() =>{
+    	resolve('Resolved...1')
+    },10000)
+  })
+}
+
+function fun2(){
+	console.log("Called ...2")
+	return new Promise((resolve, reject) => {
+  	setTimeout(() =>{
+    	resolve('Resolved...2')
+    },2000)
+  })
+}
+
+function fun3(){
+	console.log("Called ...3")
+	return new Promise((resolve, reject) => {
+  	setTimeout(() =>{
+    	resolve('Resolved...3')
+    },2000)
+  })
+}
+
+async function fun4(){
+	let x = await fun1();
+  console.log(x);
+  let y = await fun2();
+  console.log(y);
+  let z = await fun3();
+  console.log(z);
+}
+
+fun4();
+```
+
+
 [Home](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/README.md)
