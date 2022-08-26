@@ -35,4 +35,43 @@ Hi Button
   
 In above example the button will display on browser after done with the heavy job.
   
+Let us modify the above example in such a way that the UI will render with in 10 seconds.
+  
+```html
+<script>
+let i = 0;
+let part = 1;
+let start = Date.now();
+
+function count() {
+
+  // do a piece of the heavy job (*)
+  do {
+    i++;
+  } while (i % 1e6 != 0);
+
+  if (i == 1e9) {
+    alert("Done in " + (Date.now() - start) + 'ms');
+  } else {
+  	console.log((part++)+"th Part in "+ (Date.now() - start) + 'ms')
+    setTimeout(count); // schedule the new call (**)
+  }
+
+}
+
+count();
+</script>
+
+<button onClick="alert('Hi')">
+Hi Button
+</button>
+  
+```html
+  
+In the above example the heavy code is divided into 1000 pieces. Not the first piece will complete with in 10 seconds and the UI will render. Theb rest pieces of the heavy Jon will be done.
+  
+  
+  
+  
+  
   
