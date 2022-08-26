@@ -72,7 +72,33 @@ Hi Button
 In the above example the heavy code is divided into 1000 pieces. Not the first piece will complete with in 10 seconds and the UI will render. Theb rest pieces of the heavy Jon will be done.
   
   
-  
+```js
+console.log("First");     // call stack
+setTimeout(()=>console.log("Second"));  // Macro Task
+Promise.resolve('').then(()=>console.log("Third"));   // Micro Task
+console.log("Last")       // Call stack
+```
+
+The output of above :
+
+```
+"First"
+"Last"
+"Third"
+"Second"
+```
+
+Reason:
+
+MacroTask : setTimeout, setInterval, setImmediate
+MicroTask : process.nextTick, Promise callback , queueMicrotask
+
+Event Loop Priorities :
+
+1) All functions that are currently in the call stack get executed. When they return a value, they get popped off the stack.
+2) When the call stack is empty, all queued up microtasks are popped onto the callstack one by one, and get executed! (Microtasks themselves can also return new microtasks, effectively creating an infinite microtask loop 😬)
+3) If both the call stack and microtask queue are empty, the event loop checks if there are tasks left on the (macro)task queue. The tasks get popped onto the callstack, executed, and popped off!
+
   
   
   
