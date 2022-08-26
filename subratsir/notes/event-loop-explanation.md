@@ -9,6 +9,7 @@ Two more details:
 Example : 
 
 ```html
+
 <script>
 let i = 0;
 
@@ -31,7 +32,7 @@ count();
 Hi Button
 </button>
 
-```html
+```
   
 In above example the button will display on browser after done with the heavy job.
   
