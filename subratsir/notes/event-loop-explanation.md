@@ -102,5 +102,35 @@ Event Loop Priorities :
 3) If both the call stack and microtask queue are empty, the event loop checks if there are tasks left on the (macro)task queue. The tasks get popped onto the callstack, executed, and popped off!
 
   
-  
-  
+## Async/Await
+
+ES7 intruduced Async/Await : A new way of adding Async behaviour in JavaScript.
+
+### Example
+
+```js
+const second = () => Promise.resolve('Second');
+
+async function myFun(){
+	console.log("First");
+  const res = await second();
+  console.log(res);
+}
+
+console.log("Start");
+myFun();
+console.log("Last");
+```
+
+Output :
+
+```
+"Start"
+"First"
+"Last"
+"Second"
+```
+
+`console.log('start')` is in execution context, in this case global execution context. First loads to call stack and executes. Then myFun() loads to callStack. `console.log('first')` of myFun() loads to callstack and gets executed. Then encountered `await` keyword. `async` function when encounters `await` keyword, It moves the rest of the function to `microtask queue`. So the rest statement after myFun() `console.log('Last')` loads to call stack and gets executed. When call stack is empty the rest statements of myFunc() loads from `microtask queue` and executes.
+
+
