@@ -67,7 +67,7 @@ count();
 Hi Button
 </button>
   
-```html
+```
   
 In the above example the heavy code is divided into 1000 pieces. Not the first piece will complete with in 10 seconds and the UI will render. Theb rest pieces of the heavy Jon will be done.
   
