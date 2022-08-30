@@ -6,7 +6,7 @@
 - [Flattern a nested array](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/flattern-nested-array.md)
 - [Flattern a nested object](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/flattern-a-nested-object.md)
 - [Find second largest unique number of an given array](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/find-second-largest-unique-number.md)
-- 
+- [Find the number of occurances of elements of an array](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/find-number-of-occurances.md)
 
 
 
