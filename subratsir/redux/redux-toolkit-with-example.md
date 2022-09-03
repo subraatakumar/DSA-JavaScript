@@ -131,3 +131,37 @@ export default function () {
   );
 }
 ```
+
+## Summary 
+
+- import createSlice from `@reduxjs/toolkit` and create a slice. createSlice accepts a single configuration object parameter, with the following options:
+```js
+function createSlice({
+    // A name, used in action types
+    name: string,
+    // The initial state for the reducer
+    initialState: any,
+    // An object of "case reducers". Key names will be used to generate actions.
+    reducers: Object<string, ReducerFunction | ReducerAndPrepareObject>
+    // A "builder callback" function used to add more reducers, or
+    // an additional object of "case reducers", where the keys should be other
+    // action types
+    extraReducers?:
+    | Object<string, ReducerFunction>
+    | ((builder: ActionReducerMapBuilder<State>) => void)
+})
+```
+Note: In our example we are assigning an addition object of case reducers to reducers.
+
+- Export reducer and actions from slice
+- import configureStore from `@reduxjs/toolkit` and reducer from slice file.
+- configureStore accepts a single configuration object parameter, with the following options:
+
+```js
+  reducer:{reducer1, reducer2} // A single reducer function that will be used as the root reducer,
+  middleware?: // An array of Redux middleware to install. If not supplied, defaults to the set of middleware returned by `getDefaultMiddleware()`.
+  devTools?: // Whether to enable Redux DevTools integration. Defaults to `true`.
+```
+- import `useSelector` and `useDispatch` hooks from `react-redux`
+- import actions from the slice file
+- dispatch actions as required
