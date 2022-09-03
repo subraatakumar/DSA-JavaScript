@@ -98,3 +98,36 @@ export default function () {
   );
 }
 ```
+
+The counterSlice can also be imported directly and use it's actions as below.
+
+```js
+import { useSelector, useDispatch } from "react-redux";
+import { counterSlice } from "./redux/slices/counterSlice";
+
+export default function () {
+  const value = useSelector((state) => state.counterReducer.value);
+  const name = useSelector((state) => state.counterReducer.name);
+  const dispatch = useDispatch();
+
+  return (
+    <>
+      <h3>Home Function Component</h3>
+      <p>
+        Value: {value} {name}
+      </p>
+      <div>
+        <button onClick={() => dispatch(counterSlice.actions.increment(1))}>
+          Add
+        </button>
+        <button onClick={() => dispatch(counterSlice.actions.reset())}>
+          Reset
+        </button>
+        <button onClick={() => dispatch(counterSlice.actions.decrement(1))}>
+          Sub
+        </button>
+      </div>
+    </>
+  );
+}
+```
