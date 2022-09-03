@@ -1,6 +1,6 @@
 # Redux Toolkit With Example
 
-## redux/store.js
+### redux/store.js
 
 ```js
 import { configureStore } from "@reduxjs/toolkit";
@@ -31,3 +31,70 @@ export default function App() {
 }
 ```
 
+Now letus create actions and reducer
+
+### redux/slices/counterSlice.js
+
+```js
+import { createSlice } from "@reduxjs/toolkit";
+
+export const counterSlice = createSlice({
+  name: "counter",
+  initialState: { value: 0 },
+  reducers: {
+    increment: (state, action) => {
+      state.value = state.value + action.payload;
+    },
+    decrement: (state, action) => {
+      state.value = state.value - action.payload;
+    },
+    reset: (state) => {
+      state.value = 0;
+    }
+  }
+});
+
+export const { increment, decrement, reset } = counterSlice.actions;
+export default counterSlice.reducer;
+```
+
+Now let us connect reducer to store
+
+### redux/store.js
+
+```js
+import { configureStore } from "@reduxjs/toolkit";
+import counterReducer from './slices/counterSlice'
+
+export const store = configureStore({
+  reducer: {
+    counterReducer
+  }
+});
+```
+
+Our default export in `counterSlice.js` is `export default counterSlice.reducer;` but we imported in a new name `counterReducer`. This name can be any name.
+
+Now dispatch the actions from the component where you want to use it. In this example it is home component.
+
+```js
+import { useSelector, useDispatch } from "react-redux";
+import { increment, decrement, reset } from "./redux/slices/counterSlice";
+
+export default function () {
+  const value = useSelector((state) => state.counterReducer.value);
+  const dispatch = useDispatch();
+
+  return (
+    <>
+      <h3>Home Function Component</h3>
+      <p>Value: {value}</p>
+      <div>
+        <button onClick={() => dispatch(increment(1))}>Add</button>
+        <button onClick={() => dispatch(reset())}>Reset</button>
+        <button onClick={() => dispatch(decrement(1))}>Sub</button>
+      </div>
+    </>
+  );
+}
+```
