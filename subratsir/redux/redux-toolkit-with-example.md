@@ -162,6 +162,7 @@ Note: In our example we are assigning an addition object of case reducers to red
   middleware?: // An array of Redux middleware to install. If not supplied, defaults to the set of middleware returned by `getDefaultMiddleware()`.
   devTools?: // Whether to enable Redux DevTools integration. Defaults to `true`.
 ```
-- import `useSelector` and `useDispatch` hooks from `react-redux`
+- import store from the file and import `provider` from `react-redux` in the root component. Wrap the root component with provider passing store as prop
+- import `useSelector` and `useDispatch` hooks from `react-redux` into the child component where you want to use
 - import actions from the slice file
 - dispatch actions as required
