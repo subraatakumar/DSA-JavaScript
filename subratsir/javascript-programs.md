@@ -8,7 +8,7 @@
 - [Find second largest unique number of an given array](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/find-second-largest-unique-number.md)
 - [Find the number of occurances of elements of an array](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/find-number-of-occurances.md)
 - [Find the difference letter](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/find-the-difference-letter.md)
-
+- [Find judge leetcode solution](https://javascript.plainenglish.io/how-to-find-the-town-judge-92f07c5b7570)
 
 # Reverse a number
 
