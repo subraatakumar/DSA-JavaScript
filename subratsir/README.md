@@ -44,7 +44,7 @@
 - [How to use factory function to create object?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-to-create-objects-in-javascript.md)
 - [How to create object using constructor function ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-to-create-objects-in-javascript.md)
 - [Difference between local storage sessions storage and cookies](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/cookies.JPG)
-
+- [Difference between array slice and splice](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/notes/diff-array-slice-splice.md)
 
 ## React Questions
 
