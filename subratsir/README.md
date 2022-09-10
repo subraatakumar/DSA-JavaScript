@@ -61,7 +61,7 @@
 ## Redux Questions
 
 - [What are three principles of redux ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/notes/three-principles-of-redux.md)
-- [Explain redux toolkit with example]()
+- [Explain redux toolkit with example](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/redux/redux-toolkit-with-example.md)
 
 ## Software Engineering Questions
 
