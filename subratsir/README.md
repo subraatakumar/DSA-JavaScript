@@ -56,7 +56,7 @@
 - [How DOM updates is React ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-dom-updates-in-react.md)
 - [What is reconciliation in React ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-dom-updates-in-react.md)
 - [Why diffing algorithm is used in React?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-dom-updates-in-react.md)
-
+- [coding question - stop watch](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-coding/stop-watch.md)
 
 ## Redux Questions
 
