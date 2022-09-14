@@ -36,3 +36,5 @@ Communication across components
 how to avoid prop drilling
 
 ## Hooks Pattern : 
+
+[video playlist](https://www.youtube.com/watch?v=jOl3m6KFrNI&list=PLTgRMOcmRb3M2cPN_6iDDOYn8FONTkc3N&index=5)
