@@ -58,6 +58,10 @@
 - [Why diffing algorithm is used in React?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-dom-updates-in-react.md)
 - [coding question - stop watch](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-coding/stop-watch.md)
 
+## React Native Questions
+
+- [Explain react native design patterns](#)
+
 ## Redux Questions
 
 - [What are three principles of redux ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/notes/three-principles-of-redux.md)
@@ -74,6 +78,8 @@ A Singleton is an object which can only be instantiated one time. Repeated calls
 `
 
 - [What is the difference between Stack and Queue ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference-between-stack-and-queue.md)
+
+
 
 
 
