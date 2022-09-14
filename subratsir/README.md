@@ -61,7 +61,7 @@
 
 ## React Native Questions
 
-- [Explain react native design patterns](https://github.com/subratsir/DSA-JavaScript/edit/main/subratsir/react-native/react-native-design-patterns.md)
+- [Explain react native design patterns](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-native/react-native-design-patterns.md)
 
 ## Redux Questions
 
