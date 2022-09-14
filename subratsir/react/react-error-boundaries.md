@@ -11,7 +11,7 @@ Error boundaries are react components that catch javascript errors anywhere in t
 
 Only class components can be error boundaries. In react class component use `getDerivedStateFromError()` to render fallback UI after an error has been thrown. Use `componentDidCatch()` to log error information.
 
-```
+```js
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
@@ -40,7 +40,7 @@ class ErrorBoundary extends React.Component {
 ```
 Then you can use it as a regular component:
 
-```
+```js
 <ErrorBoundary key={uniqueKey}>
    <FuncationalOrChildComponent {...props} />
 </ErrorBoundary>
