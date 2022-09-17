@@ -58,6 +58,7 @@
 - [Why diffing algorithm is used in React?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-dom-updates-in-react.md)
 - [What is React Error Boundary](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react/react-error-boundaries.md)
 - [coding question - stop watch](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-coding/stop-watch.md)
+- [React Coding Interview Preparation Video Solution](https://www.youtube.com/watch?v=XBTJDpT2XaI)
 
 ## React Native Questions
 
