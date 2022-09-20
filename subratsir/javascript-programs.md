@@ -10,7 +10,7 @@
 - [Find the difference letter](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/find-the-difference-letter.md)
 - [Find judge leetcode solution](https://javascript.plainenglish.io/how-to-find-the-town-judge-92f07c5b7570)
 - [Find the volume of a sphere](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/volume-of-sphere.md)
-- 
+- [Find the majority element](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/find-largest-occurance-in-an-array.md)
 
 # Reverse a number
 
