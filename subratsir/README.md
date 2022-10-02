@@ -62,6 +62,7 @@
 - [React useContext hook example](https://codesandbox.io/s/usecontextexample-lnls86?file=/src/App.js)
 - [React useContext MovieList App](https://codesandbox.io/s/usecontext-movieapp-j06708)
 - [Creation of custom useInterval hook](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-coding/use-interval-hook.md)
+- [How to stop re-rendering of child component ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react/stop-rerendering-of-child-component.md)
 
 ## React Native Questions
 
