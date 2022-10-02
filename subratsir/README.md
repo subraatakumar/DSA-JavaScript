@@ -71,6 +71,7 @@
 
 - [What are three principles of redux ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/notes/three-principles-of-redux.md)
 - [Explain redux toolkit with example](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/redux/redux-toolkit-with-example.md)
+- [From the given api pick all the users. While it is picking the screen should display loading please wait. In case of error show proper error message. If successful display all the user names](https://codesandbox.io/s/redux-toolkit-user-1sobop?file=/src/App.js)
 
 ## Software Engineering Questions
 
