@@ -63,6 +63,7 @@
 - [React useContext MovieList App](https://codesandbox.io/s/usecontext-movieapp-j06708)
 - [Creation of custom useInterval hook](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-coding/use-interval-hook.md)
 - [How to stop re-rendering of child component ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react/stop-rerendering-of-child-component.md)
+- [How react lazy loading is used for code spliting?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react/react-lazy.md)
 
 ## React Native Questions
 
