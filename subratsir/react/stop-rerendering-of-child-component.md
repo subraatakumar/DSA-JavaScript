@@ -43,3 +43,4 @@ const Child = React.memo(() => {
 ```
 
 Now clicking on the Increase button will increase the button but will not re-render the child component. To test this a console.log is used in child component.
+Note: The child component will re-render only when the props passed to it are changed.
