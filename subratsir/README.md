@@ -4,7 +4,7 @@
 
 ## [Array](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/arrays.md)
 
-## [Hacker Rank Solutions](https://github.com/subratsir/DSA-JavaScript/tree/main/subratsir)
+## [Leet Code Solutions](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/leet-code-solutions.md)
 
 ## [JavaScript Programs](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/javascript-programs.md)
 
