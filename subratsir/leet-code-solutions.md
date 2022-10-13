@@ -4,3 +4,5 @@
 |---|---|---|
 | [Single Number](https://leetcode.com/problems/single-number/) | [Solution](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/leetcode/single-number.md) | Easy |
 | [Majority Element](https://leetcode.com/problems/majority-element) | [Solution](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/leetcode/majority-element.md) | Easy |
+| [Three Sum](https://leetcode.com/problems/3sum) | [Solution](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/leetcode/three-sum.md) | Medium |
+
