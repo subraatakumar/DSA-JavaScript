@@ -36,3 +36,9 @@ var singleNumber = function(nums) {
   return findings;        
 };
 ```
+
+## How it works :
+
+^ (XOR) `caret` is a javascript bitwise operator. Sets each bit to 1 if only one of two bits is 1.
+
+If we use this in decimal numbers, It will result 0 if both the operands are same. In this way it will store the operand which is single and rest all operands which are in pair will be 0.
