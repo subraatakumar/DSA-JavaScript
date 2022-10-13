@@ -20,3 +20,19 @@ var singleNumber = function(nums) {
   return null;        
 };
 ```
+
+## Optimised Solution
+
+```
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var singleNumber = function(nums) {
+	let findings = 0;
+	for(let i=0; i<nums.length; i++){
+        findings ^= nums[i]
+	}
+  return findings;        
+};
+```
