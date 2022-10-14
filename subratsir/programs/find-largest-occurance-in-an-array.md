@@ -25,6 +25,22 @@ Return  : 2 which occurs 2 times which is greater than 3/2.
 	}
 ```
 
+```js
+// Another Solution
+function majorityElement(x){
+  let y = x.reduce((a,b) => {
+    //console.log(a,b);
+    return  {...a, [b] : (a[b]|0)+1 }
+  },{})
+  //console.log(y);
+
+  let x1 = Object.values(y);
+  let maxVal = Math.max(...x1);
+  let maxKeyIndex = x1.indexOf(maxVal);
+  return(Object.keys(y)[maxKeyIndex]);
+}
+```
+
 ## Test
 
 ```js
