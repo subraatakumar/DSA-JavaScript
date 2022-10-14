@@ -10,7 +10,7 @@ var isValid = function(s){
             if((c == "(" && s[i] == ')' ) || (c == "{" && s[i] == '}' ) || (c == "[" && s[i] == ']' )){
                 result.pop();
             }else{
-		            return false;
+		return false;
             }
         }
     }
