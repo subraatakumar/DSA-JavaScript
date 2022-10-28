@@ -1,4 +1,12 @@
-# Spread Operator
+# Spread & Rest Operator
+
+Both looks same. The spread operator allows us to spread the value of an array, string (or any iterable) across zero or more arguments in a function or elements in an array (or any iterable). The rest parameter allows us to pass an indefinite number of parameters to a function and access them in an array.
+
+```js
+const list1 = ['Ramesh', 'Suresh'];
+const list2 = ['Mahesh', ...list1, 'Ganesh', 'Subrata'];
+console.log(list2) //['Mahesh', 'Ramesh', 'Suresh', 'Ganesh', 'Subrata']
+```
 
 The JavaScript spread operator (...) allows us to quickly copy all or part of an existing array or object into another array or object.
 
