@@ -190,3 +190,4 @@ function multiplyFour(a){
 ## Books
 
 [JavaScript Best Practices](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/books/JavaScriptBestPractices.pdf)
+[piratekingdom](https://www.piratekingdom.com/leetcode/cheat-sheet)
