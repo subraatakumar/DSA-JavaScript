@@ -8,6 +8,11 @@ const list2 = ['Mahesh', ...list1, 'Ganesh', 'Subrata'];
 console.log(list2) //['Mahesh', 'Ramesh', 'Suresh', 'Ganesh', 'Subrata']
 ```
 
+```js
+  let z = [7,5,3,16,18,12,11,7]
+  console.log(Math.min(...z)) // Find minimum using spread operator
+```
+
 The JavaScript spread operator (...) allows us to quickly copy all or part of an existing array or object into another array or object.
 
 ```js
