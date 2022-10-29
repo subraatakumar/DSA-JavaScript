@@ -29,4 +29,4 @@ console.log(person3) // {name: 'Mahesh'}
 ```
 
 <hr>
-A deep copying means that value of the new variable is disconnected from the original variable while a shallow copy means that some values are still connected to the original variable.
+A deep copy means that values from source is copied to the target variable, while a shallow copy means that only reference of source is copied to the target but still they refer to same memory location. So change to one in shallow copy will reflect in other also.
