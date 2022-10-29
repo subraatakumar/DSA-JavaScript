@@ -80,12 +80,12 @@
 - [What are SOLID principles ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/solid.md)
 - [Difference between loosly coupled and tightly coupled object ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference_between_loosly_coupled_tight_coupled_object.md)
 - [What is singleton object]()
-- [What is debouncing](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/softwareengg/debouncing.md)
 
 `
 A Singleton is an object which can only be instantiated one time. Repeated calls to its constructor return the same instance and this way one can ensure that they don't accidentally create multiple instances.
 `
 
+- [What is debouncing](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/softwareengg/debouncing.md)
 - [What is the difference between Stack and Queue ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/difference-between-stack-and-queue.md)
 
 
