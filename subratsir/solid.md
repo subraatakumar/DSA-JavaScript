@@ -7,6 +7,10 @@
 - D (Dependency Inversion Principle): The Dependency Inversion Principle (DIP) states that high-level modules should not depend on low-level modules; both should depend on abstractions. Abstractions should not depend on details. It helps us to couple software modules loosely.
 
 
+<hr/>
+
+High-level modules contain the important policy decisions and business models of an application – The identity of the application. Low-level modules contain detailed implementations of individual mechanisms needed to realize the policy.
+
 
 
 
