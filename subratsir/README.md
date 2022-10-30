@@ -13,10 +13,13 @@ This is my own collection for self preparation. If it helps you, I will be glad.
 ## What will be the output
 
 - [Set - 1](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/what-will-be-the-output.md)
+- [Set - 2](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/what-will-be-the-output-2.md)
 
 ## Modify the output
 
 - [program 1](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/modify-the-output-1.md)
+- [program 2]
+- [program 3]
 
 ## JavaScript Interview Preparation
 
