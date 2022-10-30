@@ -8,5 +8,6 @@ Whenever an async function is called, it is sent to a builtin browser API. The l
 
 The event loop constantly checks whether or not the call stack is empty. If it is empty, new functions are added from the event queue.
 
+[learn more](https://medium.com/gradeup/asynchronous-javascript-event-loop-1c8de41298dd)
 
 [Home](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/README.md)
