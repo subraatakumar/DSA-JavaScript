@@ -18,8 +18,8 @@ This is my own collection for self preparation. If it helps you, I will be glad.
 ## Modify the output
 
 - [program 1](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/modify-the-output-1.md)
-- [program 2]
-- [program 3]
+- [program 2](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/modify-the-output-2.md)
+
 
 ## JavaScript Interview Preparation
 
