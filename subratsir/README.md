@@ -1,5 +1,7 @@
 # DSA-JavaScript
 
+This is my own collection for self preparation. If it helps you, I will be glad.
+
 ## [Linked List](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/linked-list.md)
 
 ## [Array](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/arrays.md)
@@ -7,6 +9,8 @@
 ## [Leet Code Solutions](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/leet-code-solutions.md)
 
 ## [JavaScript Programs](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/javascript-programs.md)
+
+## [What will be the output ]()
 
 ## JavaScript Interview Preparation
 
