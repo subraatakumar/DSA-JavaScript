@@ -11,6 +11,7 @@
 - [Find judge leetcode solution](https://javascript.plainenglish.io/how-to-find-the-town-judge-92f07c5b7570)
 - [Find the volume of a sphere](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/volume-of-sphere.md)
 - [Find the majority element](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/find-largest-occurance-in-an-array.md)
+- [Write a function that performs binary search on a sorted array](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/binary-search.md)
 
 # Reverse a number
 
