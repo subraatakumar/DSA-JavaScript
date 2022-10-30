@@ -70,6 +70,21 @@ console.log(a==b)
 console.log(a===b)
 ```
 
+9)
+```js
+let a = 0;
+let b = false;
+if(a){
+	console.log("a is truthy")
+}else{
+	console.log("a is falsy")
+}
+if(b){
+	console.log("b is truthy")
+}else{
+	console.log("b is falsy")
+}
+```
 
 Answers:
 1) Undefined : Reason: as var is function scoped, so foo inside the function will be hoisted at top of the function and foo will become undefined.
@@ -81,6 +96,17 @@ Answers:
 7) true for a==b and false for a===b : Reason: == compares only value where as === compares value with type. a is of `object` type and b is of `undefined` type so the result will be false.
 8) true for a==b and false for a===b : Reason: == compares only value where as === compares value with type. a is of `number` type and b is of `boolean` type so the result will be false.
 9) 
+```
+a is falsy
+b is falsy
+```
+
+Boolean coercion takes place when using logical operators, ternary operators, if statements, and loop checks. To understand boolean coercion in if statements and operators, we need to understand truthy and falsy values.
+
+Truthy values are those which will be converted (coerced) to true. Falsy values are those which will be converted to false.
+
+All values except false, 0, 0n, -0, “”, null, undefined, and NaN are truthy values.
+
 
 
   
