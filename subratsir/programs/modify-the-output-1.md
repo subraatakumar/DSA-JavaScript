@@ -28,3 +28,9 @@ getElement(5); 	// 36
 getElement(12);	// 169
 ```
 
+<hr>
+Note: the mentioned 50 elements array can also be created using the below code
+
+```js
+let arr = Array.from({length: 50}, (_, i) => Math.pow(i + 1,2))
+```
