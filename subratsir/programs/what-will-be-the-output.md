@@ -107,7 +107,11 @@ Truthy values are those which will be converted (coerced) to true. Falsy values 
 
 All values except false, 0, 0n, -0, “”, null, undefined, and NaN are truthy values.
 
+<hr/>
 
+### What is coercion ?
+
+the use of force to persuade someone to do something that they are unwilling to do. This is also called type casting in programming. 
 
   
 
