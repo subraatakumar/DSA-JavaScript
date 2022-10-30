@@ -10,7 +10,9 @@ This is my own collection for self preparation. If it helps you, I will be glad.
 
 ## [JavaScript Programs](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/javascript-programs.md)
 
-## [What will be the output ]()
+## What will be the output
+
+- [Set - 1](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/what-will-be-the-output.md)
 
 ## JavaScript Interview Preparation
 
