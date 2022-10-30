@@ -86,6 +86,22 @@ if(b){
 }
 ```
 
+10)
+
+```js
+var b = 10
+function test(){
+	console.log(b);
+  
+  b++;
+  console.log(b);
+  
+  var b=3;
+  console.log(b);
+}
+test();
+```
+
 Answers:
 1) Undefined : Reason: as var is function scoped, so foo inside the function will be hoisted at top of the function and foo will become undefined.
 2) ReferenceError: Cannot access 'foo' before initialization at myFun : Reason: as let is block scoped, so foo inside the function will be hoisted but will be at temporal dead zone.
@@ -106,6 +122,14 @@ Boolean coercion takes place when using logical operators, ternary operators, if
 Truthy values are those which will be converted (coerced) to true. Falsy values are those which will be converted to false.
 
 All values except false, 0, 0n, -0, “”, null, undefined, and NaN are truthy values.
+
+10)
+
+```
+undefined
+NaN
+3
+```
 
 <hr/>
 
