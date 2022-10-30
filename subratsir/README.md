@@ -19,6 +19,8 @@ This is my own collection for self preparation. If it helps you, I will be glad.
 
 - [program 1](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/modify-the-output-1.md)
 - [program 2](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/modify-the-output-2.md)
+- [program 3](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/modify-the-output-3.md)
+- [program 4](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/modify-the-output-4.md)
 
 
 ## JavaScript Interview Preparation
