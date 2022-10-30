@@ -14,6 +14,10 @@ This is my own collection for self preparation. If it helps you, I will be glad.
 
 - [Set - 1](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/what-will-be-the-output.md)
 
+## Modify the output
+
+- [program 1]
+
 ## JavaScript Interview Preparation
 
 - [Explain data types in JavaScript](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/data-types.md)
