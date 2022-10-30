@@ -4,7 +4,7 @@ Each time you call the program, it creates the array again. This is definitely c
 
 ```js
 function getElement(i){
-	let arr = Array.from([...Array(50).keys()].map(k => Math.pow(k+1,2)))
+  let arr = Array.from([...Array(50).keys()].map(k => Math.pow(k+1,2)))
   console.log(arr[i])
 }
 
