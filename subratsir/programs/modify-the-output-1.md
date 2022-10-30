@@ -18,7 +18,7 @@ This can be solved using closure.
 
 ```js
 function bigFunction(){
-	let arr = Array.from([...Array(50).keys()].map(k => Math.pow(k+1,2)))
+  let arr = Array.from([...Array(50).keys()].map(k => Math.pow(k+1,2)))
   return (i) => console.log(arr[i])
 }
 
