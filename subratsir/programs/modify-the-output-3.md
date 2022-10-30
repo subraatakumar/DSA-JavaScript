@@ -29,6 +29,8 @@ Second
 but it is throwing error. Please rectify the program so that it will not throw error.
 
 
+## Solution:
+
 ```js
 const promise = () => Promise.resolve("Success");
 
@@ -46,3 +48,5 @@ async function second(){
 first();
 second();
 ```
+
+we can use `await` in an `async` function.
