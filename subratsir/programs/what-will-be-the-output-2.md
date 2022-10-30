@@ -24,6 +24,26 @@ function randomFunc(){
 randomFunc();
 ```
 
+3)
+
+```js
+const promise = () => Promise.resolve("Success");
+
+function first(){
+	promise().then(res => console.log(res))
+  console.log("First");
+}
+
+async function second(){
+	const res = await promise();
+  console.log(res);
+  console.log("Second");
+}
+
+first();
+second();
+```
+
 
 Solutions:
 
@@ -37,3 +57,13 @@ Solutions:
 4
 5
 ```
+
+3)
+
+```
+First
+Success
+Success
+Second
+```
+
