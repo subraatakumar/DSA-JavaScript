@@ -4,7 +4,7 @@
 function flatten(){
   let result = {};
     return function flat(a){
-			for(let x in a){
+	 for(let x in a){
       	    (typeof a[x] === "object") ? flat(a[x]) : result[x] = a[x];
          }
          return result;
