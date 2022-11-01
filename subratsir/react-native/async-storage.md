@@ -9,5 +9,6 @@ It can be used for persisting non-sensitive data across app runs, redux state, g
 React Native does not come bundled with any way of storing sensitive data. However, there are pre-existing solutions for Android and iOS platforms.
 
 Android - Secure Shared Preferences
+
 IOS - Keychain Services
 
