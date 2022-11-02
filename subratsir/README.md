@@ -83,6 +83,10 @@ This is my own collection for self preparation. If it helps you, I will be glad.
 ## React Native Questions
 
 - [Explain react native design patterns](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-native/react-native-design-patterns.md)
+- [How to optimise a flatlist in react native](https://www.obytes.com/blog/a-guide-to-optimizing-flatlists-in-react-native)
+- [what is Async storage](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-native/async-storage.md)
+- [How to use camera in react native](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-native/how-to-use-camera.md)
+
 
 ## Redux Questions
 
