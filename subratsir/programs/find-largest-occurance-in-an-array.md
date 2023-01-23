@@ -41,6 +41,25 @@ function majorityElement(x){
 }
 ```
 
+```js
+export default function majorityElement(arr){
+  let result={};
+  arr.forEach(x => {
+    //console.log(x)
+    if(result[x]){
+      result[x] = result[x]+1
+    }else{
+      result[x] = 1
+    }
+  })
+  let value_arr = Object.values(result)
+  let max_value = Math.max(...value_arr)
+  let max_value_index = value_arr.indexOf(max_value)
+  let key_arr = Object.keys(result);
+  return key_arr[max_value_index]
+}
+```
+
 ## Test
 
 ```js
