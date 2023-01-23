@@ -42,6 +42,7 @@ function majorityElement(x){
 ```
 
 ```js
+// Another Solution
 export default function majorityElement(arr){
   let result={};
   arr.forEach(x => {
