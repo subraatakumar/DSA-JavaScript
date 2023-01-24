@@ -221,5 +221,5 @@ function multiplyFour(a){
 [UPS 2.0](https://www.youtube.com/watch?v=hvvWv2GLWss)
 
 [More JavaScript Interview Questions](https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions)
-
+[JavaScript Visualised 7 Parts Series](https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke)
 
