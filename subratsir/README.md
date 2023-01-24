@@ -16,6 +16,7 @@ This is my own collection for self preparation. If it helps you, I will be glad.
 
 - [Set - 1](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/what-will-be-the-output.md)
 - [Set - 2](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/what-will-be-the-output-2.md)
+- [Set - 3](https://github.com/subrataindia/DSA-JavaScript/blob/main/subratsir/programs/what-will-be-the-output-3.md)
 
 ## Modify the output
 
