@@ -225,7 +225,7 @@ function multiplyFour(a){
 
 ## Interview Question Sets
 
-- [Set 1]
-- [Set 2]
+- [Set 1](https://github.com/subrataindia/DSA-JavaScript/blob/main/subratsir/interview_sets/set1.md)
+- [Set 2](https://github.com/subrataindia/DSA-JavaScript/blob/main/subratsir/interview_sets/set2.md)
 
 
