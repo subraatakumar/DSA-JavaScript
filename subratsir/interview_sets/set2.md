@@ -31,8 +31,11 @@
 👉 What is useRef() in React, have you used it?
 
 👉 What would be the output of the given code?
+
+```js
  const clothes = ["jacket", "t-shirt"];
  clothes.length = 0;
  console.log(clothes[0]);
+```
 
 👉 Write a code to find the maximum char from the string, Input: "HELLO" => Output: "L"
