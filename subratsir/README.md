@@ -213,16 +213,17 @@ function multiplyFour(a){
 
 ## Books
 
-[JavaScript Best Practices](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/books/JavaScriptBestPractices.pdf)
-[piratekingdom](https://www.piratekingdom.com/leetcode/cheat-sheet)
+- [JavaScript Best Practices](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/books/JavaScriptBestPractices.pdf)
+- [piratekingdom](https://www.piratekingdom.com/leetcode/cheat-sheet)
 
 ## Tutorials
-[Podcase App](https://www.youtube.com/watch?v=NeHnb_y4SuI&list=PLzQWIQOqeUSPpi4MwvYh1j-KvK_e_yq8W)
-[UPS 2.0](https://www.youtube.com/watch?v=hvvWv2GLWss)
 
-[More JavaScript Interview Questions](https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions)
-[JavaScript Visualised 7 Parts Series](https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke)
-[10 JavaScript Resources](https://github.com/subrataindia/DSA-JavaScript/blob/main/subratsir/books/js-10.md)
+- [Podcase App](https://www.youtube.com/watch?v=NeHnb_y4SuI&list=PLzQWIQOqeUSPpi4MwvYh1j-KvK_e_yq8W)
+- [UPS 2.0](https://www.youtube.com/watch?v=hvvWv2GLWss)
+
+- [More JavaScript Interview Questions](https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions)
+- [JavaScript Visualised 7 Parts Series](https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke)
+- [10 JavaScript Resources](https://github.com/subrataindia/DSA-JavaScript/blob/main/subratsir/books/js-10.md)
 
 ## Interview Question Sets
 
