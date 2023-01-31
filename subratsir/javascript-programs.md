@@ -12,6 +12,8 @@
 - [Find the volume of a sphere](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/volume-of-sphere.md)
 - [Find the majority element](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/find-largest-occurance-in-an-array.md)
 - [Write a function that performs binary search on a sorted array](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/programs/binary-search.md)
+- [find the sum of digits of a number until the sum becomes a single digit](https://github.com/subrataindia/DSA-JavaScript/blob/main/subratsir/programs/find%20the%20sum%20of%20digits%20of%20a%20number%20until%20the%20sum%20becomes%20a%20single%20digit.md)
+
 
 # Reverse a number
 
