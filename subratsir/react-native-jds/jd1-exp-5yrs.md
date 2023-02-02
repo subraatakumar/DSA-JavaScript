@@ -8,50 +8,28 @@ Our client is an international professional services brand of firms, operating a
 Job Description
 
 JD:-
-Role which we are hiring is of Individual Contributor.
-Framework and principles of React native
-Architecture patterns
-Redux
-IOS & Android
-Redux Saga.
-TypeScript/JavaScript
-Class/Functional Components
-Hooks
-NFRs(Accessibility, Unit test cases)
-Component Lifecycle events
-Knowledge of Flat list, Flexbox, UI creation
-High Order Components
-Security and Performance aspects
-Native bridging
-Code Push
-App Distribution and deployment
-SSL Pinning
-Navigation concepts
-Networking
-Good communication skill as candidate will be directly dealing with client.Exp-5+ Years The Successful Applicant
+- Role which we are hiring is of Individual Contributor.
+- Framework and principles of React native
+- Architecture patterns
+- Redux
+- IOS & Android
+- Redux Saga.
+- TypeScript/JavaScript
+- Class/Functional Components
+- Hooks
+- NFRs(Accessibility, Unit test cases)
+- Component Lifecycle events
+- Knowledge of Flat list, Flexbox, UI creation
+- High Order Components
+- Security and Performance aspects
+- Native bridging
+- Code Push
+- App Distribution and deployment
+- SSL Pinning
+- Navigation concepts
+- Networking
+- Good communication skill as candidate will be directly dealing with client.Exp-5+ Years The Successful Applicant
 
-JD:-
-Role which we are hiring is of Individual Contributor.
-Framework and principles of React native
-Architecture patterns
-Redux
-IOS & Android
-Redux Saga.
-TypeScript/JavaScript
-Class/Functional Components
-Hooks
-NFRs(Accessibility, Unit test cases)
-Component Lifecycle events
-Knowledge of Flat list, Flexbox, UI creation
-High Order Components
-Security and Performance aspects
-Native bridging
-Code Push
-App Distribution and deployment
-SSL Pinning
-Navigation concepts
-Networking
-Good communication skill as candidate will be directly dealing with client.Exp-5+ Years
 
 What's On Offer
 
