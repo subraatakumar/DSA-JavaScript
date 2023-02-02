@@ -91,6 +91,25 @@ This is my own collection for self preparation. If it helps you, I will be glad.
 - [what is Async storage](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-native/async-storage.md)
 - [How to use camera in react native](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react-native/how-to-use-camera.md)
 
+<details>
+  <summary>
+  Why we should use StyleSheet.create instead of a plain object?
+  </summary>
+
+- As per documentation, The style prop can be a plain old javascript object. As a component grows in complexity, it is often cleaner to use StyleSheet.create.
+
+- You have some methods and properties that boost the development. For example, the property StyleSheet.absoluteFill will do position: 'absolute', left: 0, right: 0, top: 0, bottom: 0, or the method compose() will allow you to combine two styles, overriding it.
+
+- In the simulator, when using stylesheet will display an ERROR, and when using the plain object will display only a WARNING.
+
+
+```js
+Known issues
+
+In some cases React Native does not match how CSS works on the web, for example the touch area never extends past the parent view bounds and on Android negative margin is not supported.
+```
+
+</details>
 
 ## Redux Questions
 
