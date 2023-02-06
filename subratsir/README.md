@@ -250,3 +250,11 @@ function multiplyFour(a){
 - [Set 2](https://github.com/subrataindia/DSA-JavaScript/blob/main/subratsir/interview_sets/set2.md)
 
 
+## Helpful Github Repos
+
+- https://github.com/sudheerj/reactjs-interview-questions
+- https://github.com/codecrafters-io/build-your-own-x
+- https://github.com/lydiahallie/javascript-questions
+- https://github.com/trekhleb/javascript-algorithms
+
+
