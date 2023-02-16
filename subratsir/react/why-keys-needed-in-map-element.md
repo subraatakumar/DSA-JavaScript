@@ -10,7 +10,7 @@ Reconciliation process consists of an algorithm called diffing. Diffing helps in
 
 ▶︎▶︎ When they have same piece of ultimately generated React Elements’ tree.
 
-▶︎ So <div>React</div> and <div className = “cool”>React</div> will seem same to React?
+▶︎ So `<div>React</div>` and `<div className = “cool”>React</div>` will seem same to React?
 
 ▶︎▶︎ Yes. Because React relies on the type of React Element, that is “div” here.
 
