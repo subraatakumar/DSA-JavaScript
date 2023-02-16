@@ -83,6 +83,7 @@ This is my own collection for self preparation. If it helps you, I will be glad.
 - [How to stop re-rendering of child component ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react/stop-rerendering-of-child-component.md)
 - [How react lazy loading is used for code spliting?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/react/react-lazy.md)
 - [Why react state don't immediately update state ?](https://github.com/subrataindia/DSA-JavaScript/blob/main/subratsir/react/why-react-state-doesnot-update-immediately.md)
+- [Why keys needed in map element?](https://github.com/subrataindia/DSA-JavaScript/blob/main/subratsir/react/why-keys-needed-in-map-element.md)
 
 ## React Native Questions
 
