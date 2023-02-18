@@ -63,6 +63,7 @@ This is my own collection for self preparation. If it helps you, I will be glad.
 - [How to create object using constructor function ?](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/how-to-create-objects-in-javascript.md)
 - [Difference between local storage sessions storage and cookies](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/cookies.JPG)
 - [Difference between array slice and splice](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/notes/diff-array-slice-splice.md)
+- [Difference between JSON and JS Object](https://github.com/subrataindia/DSA-JavaScript/blob/main/subratsir/javascript/difference-between-json-object.md)
 
 ## React Questions
 
