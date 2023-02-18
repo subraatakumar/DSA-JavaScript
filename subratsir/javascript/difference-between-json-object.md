@@ -20,8 +20,8 @@ const x = {
 In above code x is a `JS Object`. let us convert it to JSON.
 
 ```js
-const y = JSON.parse(x);
-console.log(y); // `{"firstname":"Subrata","lastname":"das","age":47}`
+const y = JSON.stringify(x);
+console.log(y); // '{"firstname":"Subrata","lastname":"das","age":47}' : because JSON can't contain function
 console.log(typeof y) // string
 console.log(typeof x) // object
 ```
@@ -37,6 +37,15 @@ const x = {
     return this["firs tname"] + " " + this.lastname; // example to access value if key contains space
   }
 };
+```
+
+## Converting JSON to Object
+
+```js
+const x = `{"firstname":"Subrata","lastname":"das","age":47}`; // back tik valid wrapper
+console.log(JSON.parse(x)) // {firstname: "Subrata", lastname: "das", age: 47}
+const y = '{"firstname":"Subrata","lastname":"das","age":47}'; // single quote valid wrapper
+console.log(JSON.parse(y)) // {firstname: "Subrata", lastname: "das", age: 47}
 ```
 
 
