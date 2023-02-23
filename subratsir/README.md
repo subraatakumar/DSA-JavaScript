@@ -2,6 +2,8 @@
 
 This is my own collection for self preparation. If it helps you, I will be glad.
 
+- [Difference between linear and binary search](https://github.com/subrataindia/DSA-JavaScript/blob/main/subratsir/dsa/diff-linear-binary-search.md)
+
 ## [Linked List](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/linked-list.md)
 
 ## [Array](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/arrays.md)
