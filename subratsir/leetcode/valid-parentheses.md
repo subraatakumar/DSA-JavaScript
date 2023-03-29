@@ -53,5 +53,5 @@ var isValid = function(s) {
 };
 ```
 
-So, the time complexity is O(n) and space complexity is O(n) as well because in the worst-case scenario if we get a sequence with only opening characters (({[([{{[( we’ll push all of them to the stack.
+So, the time complexity is `O(n)` and space complexity is `O(n)` as well because in the worst-case scenario if we get a sequence with only opening characters `(({[([{{[(` we’ll push all of them to the `stack`.
 
