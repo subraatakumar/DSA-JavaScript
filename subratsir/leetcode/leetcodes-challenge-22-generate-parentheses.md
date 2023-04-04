@@ -17,3 +17,5 @@ const generateParentheses = (n) => {
   }
 }
 ```
+
+Credit: https://medium.com/@chyanpin/solving-leetcodes-challenge-22-generate-parentheses-2ba613397c06
