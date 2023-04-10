@@ -12,6 +12,55 @@
 
 It's important to note that Hooks can only be used in functional components or other custom Hooks, and cannot be used in class components. Additionally, custom Hooks can be created using these built-in Hooks to reuse logic across different components.
 
+## Difference between useEffect and useLayoutEffect
+
+useEffect and useLayoutEffect are two React Hooks that allow you to perform side effects in functional components. The main difference between them is when they run and how they interact with the browser's rendering pipeline.
+
+useEffect runs asynchronously after the browser has painted or rendered the DOM, while useLayoutEffect runs synchronously before the browser paints or renders the DOM. This means that any state changes or updates made inside useLayoutEffect will be applied to the DOM before it is painted or rendered, whereas updates made inside useEffect will be applied after the DOM has been painted or rendered.
+
+Here's an example to illustrate the difference between useEffect and useLayoutEffect:
+````js
+import React, { useState, useEffect, useLayoutEffect } from 'react';
+
+const Example = () => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    console.log('useEffect', count);
+  }, [count]);
+
+  useLayoutEffect(() => {
+    console.log('useLayoutEffect', count);
+  }, [count]);
+
+  console.log('render', count);
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+    </div>
+  );
+};
+```
+
+n this example, we have a count state variable that is incremented when the user clicks the "Increment" button. We're using useEffect and useLayoutEffect to log the current value of count when it changes.
+
+When we run this example, we can see that the order of the console logs is:
+
+``js
+render 0
+useLayoutEffect 0
+useEffect 0
+render 1
+useLayoutEffect 1
+useEffect 1
+```
+
+This shows that useLayoutEffect runs synchronously before the DOM is painted or rendered, and useEffect runs asynchronously after the DOM is painted or rendered.
+
+Overall, the main difference between useEffect and useLayoutEffect is their timing and how they interact with the browser's rendering pipeline. In general, you should use useEffect for most side effects and useLayoutEffect only when you need to make updates that affect the layout of the page or interact with other browser APIs that depend on the layout.
+
 
 ## useInprativeHandle
 
