@@ -19,7 +19,7 @@ useEffect and useLayoutEffect are two React Hooks that allow you to perform side
 useEffect runs asynchronously after the browser has painted or rendered the DOM, while useLayoutEffect runs synchronously before the browser paints or renders the DOM. This means that any state changes or updates made inside useLayoutEffect will be applied to the DOM before it is painted or rendered, whereas updates made inside useEffect will be applied after the DOM has been painted or rendered.
 
 Here's an example to illustrate the difference between useEffect and useLayoutEffect:
-````js
+```js
 import React, { useState, useEffect, useLayoutEffect } from 'react';
 
 const Example = () => {
@@ -48,7 +48,7 @@ n this example, we have a count state variable that is incremented when the user
 
 When we run this example, we can see that the order of the console logs is:
 
-``js
+```js
 render 0
 useLayoutEffect 0
 useEffect 0
