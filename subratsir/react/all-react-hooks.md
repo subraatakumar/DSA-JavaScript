@@ -108,7 +108,44 @@ The Parent component renders the Child component and a button that calls the foc
 
 Overall, useImperativeHandle is a useful tool for customizing the instance value that is exposed to parent components when using ref on a child component, allowing you to expose only the methods or properties that are needed by the parent component.
 
+## What is the difference between usememo and usecallback explain with example
 
+useMemo and useCallback are both React Hooks that can be used to optimize the performance of functional components by memoizing the results of expensive calculations or functions. While they have some similarities, there are some key differences between them.
 
+useMemo is used to memoize the result of an expensive calculation, while useCallback is used to memoize a function. The difference is that useMemo returns a value, while useCallback returns a function.
 
+Here's an example to illustrate the difference between useMemo and useCallback:
+
+```js
+import React, { useState, useMemo, useCallback } from 'react';
+
+const Example = () => {
+  const [count, setCount] = useState(0);
+
+  const fibonacci = (n) => {
+    if (n <= 1) {
+      return n;
+    }
+    return fibonacci(n - 1) + fibonacci(n - 2);
+  };
+
+  const memoizedFibonacci = useMemo(() => fibonacci(count), [count]);
+
+  const handleClick = useCallback(() => setCount(count + 1), [count]);
+
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <p>Fibonacci: {memoizedFibonacci}</p>
+      <button onClick={handleClick}>Increment</button>
+    </div>
+  );
+};
+```
+
+In this example, we have a count state variable that is incremented when the user clicks the "Increment" button. We're using useMemo to memoize the result of the fibonacci function, which calculates the nth number in the Fibonacci sequence. We're also using useCallback to memoize the handleClick function, which updates the count state.
+
+When we run this example, we can see that the memoizedFibonacci value is only calculated when the count state changes, thanks to the useMemo hook. Similarly, the handleClick function is only recreated when the count state changes, thanks to the useCallback hook. This improves the performance of the component, since we're only calculating the Fibonacci sequence and recreating the function when necessary.
+
+Overall, useMemo and useCallback are useful tools for optimizing the performance of functional components by memoizing expensive calculations and functions. You should use useMemo when you need to memoize a value, and useCallback when you need to memoize a function.
 
