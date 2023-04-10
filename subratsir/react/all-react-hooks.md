@@ -149,3 +149,45 @@ When we run this example, we can see that the memoizedFibonacci value is only ca
 
 Overall, useMemo and useCallback are useful tools for optimizing the performance of functional components by memoizing expensive calculations and functions. You should use useMemo when you need to memoize a value, and useCallback when you need to memoize a function.
 
+## explain usereducer hook with an example
+
+useReducer is a React Hook that is used to manage state in functional components. It is an alternative to the useState Hook, and is useful when the state logic is complex and involves multiple sub-values or when the next state depends on the previous state.
+
+Here's an example of how to use useReducer:
+
+```js
+import React, { useReducer } from 'react';
+
+const initialState = { count: 0 };
+
+const reducer = (state, action) => {
+  switch (action.type) {
+    case 'increment':
+      return { count: state.count + 1 };
+    case 'decrement':
+      return { count: state.count - 1 };
+    default:
+      throw new Error();
+  }
+};
+
+const Example = () => {
+  const [state, dispatch] = useReducer(reducer, initialState);
+
+  return (
+    <div>
+      <p>Count: {state.count}</p>
+      <button onClick={() => dispatch({ type: 'increment' })}>Increment</button>
+      <button onClick={() => dispatch({ type: 'decrement' })}>Decrement</button>
+    </div>
+  );
+};
+```
+
+In this example, we have an initial state of { count: 0 } and a reducer function that takes the current state and an action and returns the next state based on the action. The reducer function handles two actions: increment, which increases the count value by 1, and decrement, which decreases the count value by 1.
+
+We use the useReducer Hook to initialize the state and the dispatch function, which is used to dispatch actions to the reducer. We pass the reducer function and the initial state to useReducer, and it returns the current state and the dispatch function.
+
+In the Example component, we render the current count value and two buttons that dispatch the increment and decrement actions when clicked. When an action is dispatched, the reducer function is called with the current state and the action, and it returns the next state based on the action. The component then re-renders with the updated state.
+
+Overall, useReducer is a powerful tool for managing state in functional components, especially when the state logic is complex or involves multiple sub-values. It allows you to separate the state logic from the component logic and provides a more predictable and consistent way to update state.
