@@ -7,4 +7,5 @@
 | [Three Sum](https://leetcode.com/problems/3sum) | [Solution](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/leetcode/three-sum.md) | Medium |
 | [valid parentheses](https://leetcode.com/problems/valid-parentheses) | [Solution](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/leetcode/valid-parentheses.md) | Easy |
 | [add two numbers](https://leetcode.com/problems/add-two-numbers/) | [JS](https://github.com/subrataindia/DSA-JavaScript/blob/main/subratsir/leetcode/javascript/add-two-numbers.md) [Kotlin](https://github.com/subrataindia/DSA-JavaScript/blob/main/subratsir/leetcode/kotlin/add-two-numbers.md) | Medium
+| [longest substring without repeating character](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JS]() [Kotlin]() | Medium |
 
