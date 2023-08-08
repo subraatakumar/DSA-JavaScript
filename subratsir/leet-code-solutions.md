@@ -6,5 +6,5 @@
 | [Majority Element](https://leetcode.com/problems/majority-element) | [Solution](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/leetcode/majority-element.md) | Easy |
 | [Three Sum](https://leetcode.com/problems/3sum) | [Solution](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/leetcode/three-sum.md) | Medium |
 | [valid parentheses](https://leetcode.com/problems/valid-parentheses) | [Solution](https://github.com/subratsir/DSA-JavaScript/blob/main/subratsir/leetcode/valid-parentheses.md) | Easy |
-| [add two numbers](https://leetcode.com/problems/add-two-numbers/) | [JS]() [Kotlin]() | Medium
+| [add two numbers](https://leetcode.com/problems/add-two-numbers/) | [JS](subrataindia/DSA-JavaScript/subratsir/leetcode/javascript/add-two-numbers.md) [Kotlin](subrataindia/DSA-JavaScript/subratsir/leetcode/kotlin/add-two-numbers.md) | Medium
 
